@@ -1,0 +1,449 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+
+:root {
+  --ubuntu-font: 'Ubuntu', sans-serif,
+}
+
+* {
+  font-family: var(--ubuntu-font);
+  font-weight: 700;
+
+}
+
+li {
+    list-style-type: none;
+}
+
+.app {
+  flex: 1,
+}
+
+.nav-menu {
+  display: none;
+}
+
+main {
+  margin: 15vh auto;
+  width: 60vw;
+}
+
+.navbar {
+  padding: 1em 4vw;
+  display: flex;
+  width: 92vw;
+  justify-content: space-between;
+  position: fixed;
+  background-color: white;
+  top: 0
+}
+
+.menu-icon {
+  display: none;
+}
+
+.nav-items {
+  display: flex;
+}
+
+.nav-items li a {
+  text-decoration: none;
+  color: black;
+}
+
+.nav-items li a:hover {
+  font-weight: 200;
+  font-size: 1.07em
+}
+
+.logo {
+  margin: 16px 0
+}
+
+footer {
+  display: flex;
+  background-color: black;
+  padding: 1em;
+  color: white;
+}
+
+footer h2 {
+  margin: 2em 0;
+  margin-left: 18vw;
+  font-size: 1.3em;
+}
+
+.social-buttons {
+  margin-left: -.5vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.nav-items li {
+  list-style-type: none;
+  margin-left: 1vw;
+}
+
+.row {
+  display: flex;
+  justify-content: space-between;
+  padding: 1em;
+  padding-left: 0;
+  padding-right: 0;
+  margin-bottom: 3vh;
+  text-align: center;
+}
+
+.column {
+  width: 60%;
+  display: flex;
+  flex-direction: column;
+}
+
+.c2 {
+  width: 35%
+}
+
+.column h1 {
+  font-size: 3rem;
+  font-weight: 750;
+  margin: 0;
+  margin-bottom: 3vh;
+  
+}
+
+.profilePic {
+  width: 100%;
+  border-radius: 50%
+}
+
+.tech-stack {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  border: 1px solid black;
+  border-radius: 20px;
+  margin-bottom: 3vh;
+  text-align: center;
+}
+
+.tech-stack h4 {
+  width: 30%;
+}
+
+.tech-stack ul {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.tech-icons {
+  display: flex;
+  padding: 0;
+  justify-content: center;
+  width: 70%;
+}
+
+.tech-icons li {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  margin-right: 2vw;
+}
+
+.tech-icons img {
+  width: 40px;
+  height: 40px;
+}
+
+.special {
+  margin-left: .4vw;
+}
+
+.about {
+  margin-top: 20vh;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.about .column {
+  width: 50%;
+}
+
+.setup {
+  width: 90%;
+  margin-left: 10%;
+  border-radius: 25px;
+}
+
+.blue-header {
+  color: rgb(21, 76, 229);
+  font-size: 1.2em;
+}
+
+.about p {
+  font-size: 1.1em;
+  font-weight: 200;
+}
+
+.about h4 {
+  font-size: 1.5em;
+  margin: 0
+}
+
+.projects {
+  margin-top: 20vh;
+}
+
+.projects h4 {
+  font-size: 1.5em;
+  margin: 0
+}
+
+.project-container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  margin-top: 3vh;
+}
+
+.project {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+}
+
+.project-pic {
+  width: 100%;
+}
+.project .column.c3 {
+}
+
+.project .column.c3 h6 {
+  font-size: 1.5em;
+  text-align: center;
+  margin: 0;
+}
+
+.project .column.c3 p {
+  text-align: center;
+  font-weight: 200;
+}
+
+.project-techs {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  padding: 0;
+}
+
+.project-techs.c3 li a {
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  color: black;
+  padding: 1em;
+  border-radius: 20px;
+}
+
+.project-techs.c3 li a:hover {
+  border: 1px solid black;
+  /* background-color: rgba(0, 0, 0, .7); */
+}
+
+.project-techs.c3 li a:active {
+  background-color: rgb(194, 187, 177);
+}
+
+.project-techs.c3 li img {
+  margin-left: .3em;
+  width: 2vw;
+  border-radius: 20px;
+}
+
+.contact {
+  margin-top: 20vh;
+}
+
+.contact h4 {
+  font-size: 1.5em;
+  margin: 0
+}
+
+.contact ul {
+  display: flex;
+  flex-direction: row;
+  padding: 0;
+  margin-top: 3vh;
+}
+
+.contact ul li {
+  display: flex;
+  width: 50%;
+  flex-direction: row;
+  align-items: center;
+}
+
+.contact ul li img {
+  height: 7vh;
+  margin-right: 1em;
+}
+
+.contact p, .contact h5 {
+  margin: .5vh 0
+}
+
+.contact p {
+  font-weight: 200;
+  font-size: 1.2em;
+}
+
+.contact h5 {
+  font-weight: 750;
+  font-size: 1.2em;
+}
+
+@media only screen and (max-width: 1340px) {
+  .project-techs li {
+    font-size: 1em;
+    margin-right: 1em;
+  }
+
+  main {
+    width: 80vw;
+  }
+
+  footer h2 {
+    margin-left: 8vw;
+  }
+}
+
+@media only screen and (max-width: 968px) {
+  main {
+    width: 80vw;
+  }
+
+  footer h2 {
+    margin-left: 6.5vw;
+  }
+
+  .about {
+    margin-top: 12em;
+    font-size: .9em;
+  }
+
+  .setup {
+    width: 90%;
+  }
+
+  .project {
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .project .column {
+    width: 100%;
+  }
+
+  .project-pic {
+    width: 100%;
+    margin-bottom: 1em;
+  }
+
+  .project .column.c3 {
+    padding: 1em 0;
+  }
+}
+
+@media only screen and (max-width: 640px) {
+  .nav-menu {
+    display: none;
+    position: fixed;
+    height: 100vh;
+    width: 100vw;
+    background-color: rgba(255, 255, 255, .95);
+    top: 5em;
+    left: 0;
+    transition: transform 1s ease-in-out;
+    transform: translateX(-100%);
+  }
+
+  .special {
+    margin-left: .5em;
+  }
+
+  .nav-menu ul li {
+    margin-bottom: 1em;
+  }
+  
+  .nav-menu ul li a:hover {
+    font-weight: 200;
+    font-size: 1.05em;
+    cursor: pointer;
+  }
+
+  .nav-menu.visible {
+    display: block;
+    transform: translateX(0);
+  }
+
+  .home {
+    text-align: center;
+  }
+
+  .nav-items {
+    display: none;
+  }
+
+  .menu-icon {
+    display: block;
+  }
+
+  .home .row {
+    flex-direction: column;
+  }
+
+  .home .row .column {
+    justify-content: center;
+    width: 100%;
+  }
+
+  .profilePic {
+    width: 60%;
+    margin: 1em auto;
+    margin-bottom: -1em;
+  }
+  
+  .about {
+    flex-direction: column;
+  }
+
+  .about .column {
+    width: 100%;
+  }
+
+  .setup {
+    margin: 0 auto;
+  }
+
+  .contact, .projects, .about, main {
+    margin-top: 6em;
+  }
+
+  .contact ul {
+    flex-direction: column;
+  }
+
+  .contact ul li {
+    width: 100%;
+    margin-bottom: 1em
+  }
+
+  footer h2 {
+    font-size: .9em;
+    margin-left: 6vw;
+  }
+}
