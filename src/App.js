@@ -75,8 +75,8 @@ function App() {
         <div id='home' className='home'>
           <div className='row'>
             <div className='column'>
-              <h1>Full-Stack Software Engineer 👋🏼</h1>
-              <p>Hi, I'm Noah Yarborough. A passionate Software Engineer based in Raleigh, North Carolina. 📍</p>
+              <h1>My name is Noah Yarborough 👋🏼</h1>
+              <p>I'm a passionate, Full-Stack Software Engineer based in Raleigh, North Carolina. 📍</p>
               <div className="social-buttons">
                 <a target='_blank' href='https://www.linkedin.com/in/noah-yarborough/'><img src={linkedIn}></img></a>
                 <a target='_blank' href='https://github.com/ndyarborough'><img src={github}></img></a>
@@ -158,9 +158,9 @@ function App() {
                   <h6>YardLand</h6>
                   <p>My cousin Chase and I ran a landscaping business together and this is our website. Check out all our services, hours, and contact information.</p>
                   <ul className='project-techs'>
-                    <li>HTML</li>
-                    <li>CSS</li>
-                    <li>JavaScript</li>
+                    <li>React</li>
+                    <li>NodeJs</li>
+                    <li>CSS Flex</li>
                   </ul>
                   <ul className='project-techs c3'>
                     <li>
