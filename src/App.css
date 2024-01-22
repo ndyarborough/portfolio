@@ -52,7 +52,8 @@ main {
 
 .nav-items li a:hover {
   font-weight: 200;
-  font-size: 1.07em
+  font-size: 1.07em;
+  cursor: pointer;
 }
 
 .logo {

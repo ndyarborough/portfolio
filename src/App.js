@@ -133,7 +133,7 @@ function App() {
                 <img className='project-pic' src={yardland}></img>
               </div>
               <div className='column c3'>
-                <h6>YardLand</h6>
+                <h6>YardLand 🪴</h6>
                 <p>My cousin Chase and I ran a landscaping business together and this is our website. Check out all our services, hours, and contact information.</p>
                 <ul className='project-techs'>
                   <li>React</li>
