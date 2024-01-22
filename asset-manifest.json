@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.7a086ef7.css",
-    "main.js": "/portfolio/static/js/main.2d58722d.js",
+    "main.css": "/portfolio/static/css/main.d6a37cab.css",
+    "main.js": "/portfolio/static/js/main.8bbce4b6.js",
+    "static/media/yardland.png": "/portfolio/static/media/yardland.f006ba3c478bd2e1959e.png",
     "static/media/eventsherenow.png": "/portfolio/static/media/eventsherenow.b36b7e6cad915263adc6.png",
-    "static/media/yardland.png": "/portfolio/static/media/yardland.364b2ef5e0fa57419b09.png",
     "static/media/setup.jpg": "/portfolio/static/media/setup.800c7dd3cc2103bf4969.jpg",
     "static/media/profilePic.jpg": "/portfolio/static/media/profilePic.eb6ac84225db0d0af81b.jpg",
     "index.html": "/portfolio/index.html",
-    "main.7a086ef7.css.map": "/portfolio/static/css/main.7a086ef7.css.map",
-    "main.2d58722d.js.map": "/portfolio/static/js/main.2d58722d.js.map"
+    "main.d6a37cab.css.map": "/portfolio/static/css/main.d6a37cab.css.map",
+    "main.8bbce4b6.js.map": "/portfolio/static/js/main.8bbce4b6.js.map"
   },
   "entrypoints": [
-    "static/css/main.7a086ef7.css",
-    "static/js/main.2d58722d.js"
+    "static/css/main.d6a37cab.css",
+    "static/js/main.8bbce4b6.js"
   ]
 }
