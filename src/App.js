@@ -23,7 +23,8 @@ import reactnative from './imgs/reactnative.png';
 import mail from './imgs/mail.png';
 import location from './imgs/location.png';
 import newTab from './imgs/newTab.png';
-import eventsherenow from './imgs/eventsherenow.png'
+import eventsherenow from './imgs/eventsherenow.png';
+import yardland from './imgs/yardland.png';
 import menu from './imgs/menu.png';
 import { Link } from 'react-scroll';
 
@@ -107,7 +108,7 @@ function App() {
               <li><img src={c}></img><p>C</p></li>
               <li><img src={cplusplus}></img><p>C++</p></li>
               <li><img src={csharp}></img><p>C#</p></li>
-            
+
             </ul>
           </div>
         </div>
@@ -149,25 +150,28 @@ function App() {
                   </li>
                 </ul>
               </div>
-
-              <div className='column c3'>
-                <h6>YardLand</h6>
-                <p>My cousin Chase and I ran a landscaping business together and this is our website. Check out all our services, hours, and contact information.</p>
-                <ul className='project-techs'>
-                  <li>HTML</li>
-                  <li>CSS</li>
-                  <li>JavaScript</li>
-                </ul>
-                <ul className='project-techs c3'>
-                  <li>
-                    <a target='_blank' href="https://github.com/ndyarborough/yardland">Code<img src={github}></img></a>
-                  </li>
-                  <li>
-                    <a target='_blank' href='https://ndyarborough.github.io/yardland'>Live Demo<img src={newTab}></img></a>
-                  </li>
-                </ul>
+              <div className='project'>
+                <div className='column'>
+                  <img className='project-pic' src={yardland}></img>
+                </div>
+                <div className='column c3'>
+                  <h6>YardLand</h6>
+                  <p>My cousin Chase and I ran a landscaping business together and this is our website. Check out all our services, hours, and contact information.</p>
+                  <ul className='project-techs'>
+                    <li>HTML</li>
+                    <li>CSS</li>
+                    <li>JavaScript</li>
+                  </ul>
+                  <ul className='project-techs c3'>
+                    <li>
+                      <a target='_blank' href="https://github.com/ndyarborough/yardland">Code<img src={github}></img></a>
+                    </li>
+                    <li>
+                      <a target='_blank' href='https://ndyarborough.github.io/yardland'>Live Demo<img src={newTab}></img></a>
+                    </li>
+                  </ul>
+                </div>
               </div>
-
             </div>
           </div>
         </div>
@@ -193,7 +197,7 @@ function App() {
         </div>
       </main>
       <footer>
-        <h2>Copyright © 2024 All rights are reserved</h2>    
+        <h2>Copyright © 2024 All rights are reserved</h2>
       </footer>
     </div>
   );
