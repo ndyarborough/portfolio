@@ -226,12 +226,16 @@ footer h2 {
   display: flex;
   flex-direction: row;
   width: 100%;
+  padding: 3em 0;
+  border-bottom: 1px solid black;
+}
+
+.project:last-child {
+  border: none;
 }
 
 .project-pic {
   width: 100%;
-}
-.project .column.c3 {
 }
 
 .project .column.c3 h6 {
@@ -243,6 +247,7 @@ footer h2 {
 .project .column.c3 p {
   text-align: center;
   font-weight: 200;
+  margin: 1em; 
 }
 
 .project-techs {
