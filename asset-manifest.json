@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.7441ebb7.css",
-    "main.js": "/portfolio/static/js/main.b7b40129.js",
+    "main.css": "/portfolio/static/css/main.6eeac639.css",
+    "main.js": "/portfolio/static/js/main.08bcb7ba.js",
     "static/media/yardland.png": "/portfolio/static/media/yardland.f006ba3c478bd2e1959e.png",
     "static/media/eventsherenow.png": "/portfolio/static/media/eventsherenow.b36b7e6cad915263adc6.png",
     "static/media/setup.jpg": "/portfolio/static/media/setup.800c7dd3cc2103bf4969.jpg",
     "static/media/profilePic.jpg": "/portfolio/static/media/profilePic.eb6ac84225db0d0af81b.jpg",
     "index.html": "/portfolio/index.html",
-    "main.7441ebb7.css.map": "/portfolio/static/css/main.7441ebb7.css.map",
-    "main.b7b40129.js.map": "/portfolio/static/js/main.b7b40129.js.map"
+    "main.6eeac639.css.map": "/portfolio/static/css/main.6eeac639.css.map",
+    "main.08bcb7ba.js.map": "/portfolio/static/js/main.08bcb7ba.js.map"
   },
   "entrypoints": [
-    "static/css/main.7441ebb7.css",
-    "static/js/main.b7b40129.js"
+    "static/css/main.6eeac639.css",
+    "static/js/main.08bcb7ba.js"
   ]
 }
