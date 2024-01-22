@@ -345,6 +345,18 @@ footer h2 {
 }
 
 @media only screen and (max-width: 968px) {
+  .nav-menu {
+    display: none;
+    position: fixed;
+    height: 100vh;
+    width: 100vw;
+    background-color: rgba(255, 255, 255, .95);
+    top: 5em;
+    left: 0;
+    transition: transform 1s ease-in-out;
+    transform: translateX(-100%);
+  }
+
   main {
     width: 80vw;
   }
@@ -392,28 +404,6 @@ footer h2 {
   .project .column.c3 {
     padding: 1em 0;
   }
-}
-
-@media only screen and (max-width: 640px) {
-  .nav-menu {
-    display: none;
-    position: fixed;
-    height: 100vh;
-    width: 100vw;
-    background-color: rgba(255, 255, 255, .95);
-    top: 5em;
-    left: 0;
-    transition: transform 1s ease-in-out;
-    transform: translateX(-100%);
-  }
-
-  .special {
-    margin-left: .5em;
-  }
-
-  .project-techs.c3 li img {
-    width: 5vw;
-  }
 
   .nav-menu ul li {
     margin-bottom: 1em;
@@ -430,10 +420,6 @@ footer h2 {
     transform: translateX(0);
   }
 
-  .home {
-    text-align: center;
-  }
-
   .nav-items {
     display: none;
   }
@@ -441,6 +427,23 @@ footer h2 {
   .menu-icon {
     display: block;
   }
+}
+
+@media only screen and (max-width: 640px) {
+  
+
+  .special {
+    margin-left: .5em;
+  }
+
+  .project-techs.c3 li img {
+    width: 5vw;
+  }
+
+  .home {
+    text-align: center;
+  }
+  
 
   .home .row {
     flex-direction: column;
