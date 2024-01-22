@@ -150,6 +150,24 @@ function App() {
                 </ul>
               </div>
 
+              <div className='column c3'>
+                <h6>YardLand</h6>
+                <p>My cousin Chase and I ran a landscaping business together and this is our website. Check out all our services, hours, and contact information.</p>
+                <ul className='project-techs'>
+                  <li>HTML</li>
+                  <li>CSS</li>
+                  <li>JavaScript</li>
+                </ul>
+                <ul className='project-techs c3'>
+                  <li>
+                    <a target='_blank' href="https://github.com/ndyarborough/yardland">Code<img src={github}></img></a>
+                  </li>
+                  <li>
+                    <a target='_blank' href='https://ndyarborough.github.io/yardland'>Live Demo<img src={newTab}></img></a>
+                  </li>
+                </ul>
+              </div>
+
             </div>
           </div>
         </div>
