@@ -20,6 +20,11 @@ import csharp from './imgs/csharp.png';
 import aws from './imgs/aws.png';
 import java from './imgs/java.png';
 import reactnative from './imgs/reactnative.png';
+import meetupEvents from './imgs/meetup-events.png';
+import meetupDashboard from './imgs/meetup-dashboard.png';
+import meetupMessages from './imgs/meetup-messages.png';
+import meetupDetails from './imgs/meetup-details.png';
+import meetupSendMessage from './imgs/meetup-send-message.png';
 import mail from './imgs/mail.png';
 import location from './imgs/location.png';
 import newTab from './imgs/newTab.png';
@@ -75,7 +80,7 @@ function App() {
         <div id='home' className='home'>
           <div className='row'>
             <div className='column'>
-              <h1>My name is Noah Yarborough 👋🏼</h1>
+              <h1>Noah Yarborough</h1>
               <p>I'm a passionate, Full-Stack Software Engineer based in Raleigh, North Carolina. 📍</p>
               <div className="social-buttons">
                 <a target='_blank' href='https://www.linkedin.com/in/noah-yarborough/'><img src={linkedIn}></img></a>
@@ -84,6 +89,32 @@ function App() {
             </div>
             <div className='column c2'>
               <img className='profilePic' src={profilePic}></img>
+            </div>
+          </div>
+          <div className='column'>
+            <h3>My Latest Creation</h3>
+            <a target="_blank" href="http://meetup-ndyarborough.s3-website.us-east-2.amazonaws.com/">Visit Meetup</a>
+            <br></br>
+            <div className='meetup'>
+              <h2>The Birth of MeetUp</h2>
+              <div className='imgContainer'>
+                <img src={meetupEvents}></img>
+                <img src={meetupDashboard}></img>
+                <img src={meetupDetails}></img>
+                <img src={meetupSendMessage}></img>
+                <img src={meetupMessages}></img>
+              </div>
+              <p>My Senior project was born from a disturbing trend I noticed while attending college. When I entered college, students were interacting, making new friends, developing relationships, and most importantly, having group conversations: those intellectual debates about life that exposed us to ideas different from our own and taught us to think critically. Then COVID hit, shut things down, and isolated us from one another. And when the pandemic was over, the isolation only continued as the social, video conferencing, and classroom apps we all continued to use every day emphasized virtual connections only. This online-only approach robbed students of face-to-face interactions, personal and professional relationships, and the free exchange of differing points of view among colleagues that leads to personal growth and lifelong connections. </p>
+              <br></br>
+              <p>In response, I came up with the idea for MeetUp, a social media web and smartphone app dedicated to getting people with similar interests together in-person. The app would allow students to create their own “events” for other students with similar interests to see, show interest in, and confirm their attendance. These events could include almost anything students would be interested in, such as midterm study groups, informal clubs, leisure activities, hobbies, exercise/sports, career connections, team building, entrepreneurial activities, etc. </p>
+              <h2>From Idea to Prototype</h2>
+              <p>Working in a team of 5, we quickly developed the concept for the app using learned techniques and tools. In a matter of weeks, we had a complete roadmap to develop and promote this application.</p>
+              <h2>Coding the Application</h2>
+              <p>For this coding project, time was short, and I was responsible for 100% of the coding. I went to my strengths, some of which I have been using since I attended the UNC Code Camp in 2016, while others I have added to my toolbox over the past two years. With a clear set of specifications, I was able to code the initial application in just ten days, giving the team time to review the app and provide feedback, and me time to make the necessary tweaks before our final presentation.</p>
+              <div className='techniques'>
+                <h2>Techniques and tools</h2>
+                
+              </div>
             </div>
           </div>
           <div className='tech-stack'>

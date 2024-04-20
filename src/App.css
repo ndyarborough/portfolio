@@ -324,6 +324,19 @@ footer h2 {
   font-size: 1.2em;
 }
 
+.meetup {
+  width: 60vw;
+}
+
+.imgContainer {
+  width: 100%
+}
+
+.imgContainer img {
+  width: 16%;
+  margin: 2%
+}
+
 @media only screen and (max-width: 1340px) {
   .project-techs li {
     font-size: 1em;
