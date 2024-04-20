@@ -19,6 +19,7 @@ import cplusplus from './imgs/cplusplus.png';
 import csharp from './imgs/csharp.png';
 import aws from './imgs/aws.png';
 import java from './imgs/java.png';
+import parker from './imgs/parker.png';
 import reactnative from './imgs/reactnative.png';
 import meetupEvents from './imgs/meetup-events.png';
 import meetupDashboard from './imgs/meetup-dashboard.png';
@@ -92,8 +93,25 @@ function App() {
             </div>
           </div>
           <div className='column'>
-            <h3>My Latest Creation</h3>
-            <a target="_blank" href="http://meetup-ndyarborough.s3-website.us-east-2.amazonaws.com/">Visit Meetup</a>
+            <div className='visit-meetup'>
+              <h2>Try out my Latest Creation, Meetup!</h2>
+              <div className='row'>
+                <div className='left'>
+                  <h3>Login as Parker to check it out!</h3>
+                  <div className='column'>
+                    <h4>Username: Parker</h4>
+                    <h4>Password: password</h4>
+                  </div>
+                  <div className='icon-row'>
+                    <img src={newTab} alt="New Tab Icon"></img>
+                    <a target="_blank" href="http://meetup-ndyarborough.s3-website.us-east-2.amazonaws.com/">Visit Meetup</a>
+                  </div>
+                </div>
+                <div className='right'>
+                  <img src={parker} alt='screenshot of parkers dashboard'></img>
+                </div>
+              </div>
+            </div>
             <br></br>
             <div className='meetup'>
               <h2>The Birth of MeetUp</h2>
@@ -113,7 +131,7 @@ function App() {
               <p>For this coding project, time was short, and I was responsible for 100% of the coding. I went to my strengths, some of which I have been using since I attended the UNC Code Camp in 2016, while others I have added to my toolbox over the past two years. With a clear set of specifications, I was able to code the initial application in just ten days, giving the team time to review the app and provide feedback, and me time to make the necessary tweaks before our final presentation.</p>
               <div className='techniques'>
                 <h2>Techniques and tools</h2>
-                
+
               </div>
             </div>
           </div>
