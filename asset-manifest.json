@@ -1,17 +1,22 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.6eeac639.css",
-    "main.js": "/portfolio/static/js/main.08bcb7ba.js",
+    "main.css": "/portfolio/static/css/main.85fc4a13.css",
+    "main.js": "/portfolio/static/js/main.4ff89547.js",
     "static/media/yardland.png": "/portfolio/static/media/yardland.f006ba3c478bd2e1959e.png",
     "static/media/eventsherenow.png": "/portfolio/static/media/eventsherenow.b36b7e6cad915263adc6.png",
+    "static/media/meetup-events.png": "/portfolio/static/media/meetup-events.94ed7d09a4b089ac1b27.png",
+    "static/media/meetup-dashboard.png": "/portfolio/static/media/meetup-dashboard.8c24e178a943b41310f6.png",
+    "static/media/meetup-details.png": "/portfolio/static/media/meetup-details.c099ee1f79ee948503a5.png",
+    "static/media/meetup-messages.png": "/portfolio/static/media/meetup-messages.20ddba93dd10dbd310d2.png",
+    "static/media/meetup-send-message.png": "/portfolio/static/media/meetup-send-message.7f76cacf5e6eb3f3bb66.png",
     "static/media/setup.jpg": "/portfolio/static/media/setup.800c7dd3cc2103bf4969.jpg",
     "static/media/profilePic.jpg": "/portfolio/static/media/profilePic.eb6ac84225db0d0af81b.jpg",
     "index.html": "/portfolio/index.html",
-    "main.6eeac639.css.map": "/portfolio/static/css/main.6eeac639.css.map",
-    "main.08bcb7ba.js.map": "/portfolio/static/js/main.08bcb7ba.js.map"
+    "main.85fc4a13.css.map": "/portfolio/static/css/main.85fc4a13.css.map",
+    "main.4ff89547.js.map": "/portfolio/static/js/main.4ff89547.js.map"
   },
   "entrypoints": [
-    "static/css/main.6eeac639.css",
-    "static/js/main.08bcb7ba.js"
+    "static/css/main.85fc4a13.css",
+    "static/js/main.4ff89547.js"
   ]
 }
