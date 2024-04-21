@@ -28,7 +28,7 @@ import expo from './imgs/expo.svg';
 import reactnative from './imgs/react-native.png';
 import meetupEvents from './imgs/meetup-events.png';
 import meetupDashboard from './imgs/meetup-dashboard.png';
-import meetupMessages from './imgs/meetup-messages.png';
+import meetupMessages from './imgs/yup.jpg';
 import meetupDetails from './imgs/meetup-details.png';
 import meetupSendMessage from './imgs/meetup-send-message.png';
 import mail from './imgs/mail.png';
@@ -42,7 +42,7 @@ import Modal from './components/Modal';
 function App() {
   const [isMenuVisible, setMenuVisibility] = useState(false);
   const [modalSrc, setModalSrc] = useState(null);
-  
+
   const toggleMenu = () => {
     setMenuVisibility(!isMenuVisible);
   };
@@ -93,7 +93,7 @@ function App() {
         <img className='menu-icon' src={menu} onClick={toggleMenu} alt="menu icon"></img>
       </div>
       <main>
-      {modalSrc && <Modal src={modalSrc} onClose={closeModal} />}
+        {modalSrc && <Modal src={modalSrc} onClose={closeModal} />}
         <div id='home' className='home'>
           <div className='row'>
             <div className='column'>
@@ -105,8 +105,9 @@ function App() {
               </div>
             </div>
             <div className='column c2'>
-              <img onClick={handleClick} className='profilePic' src={profilePic}></img>
+              <img onClick={handleClick} className='profilePic' src={profilePic} alt="Profile"></img>
             </div>
+
           </div>
           <div className='column'>
             <br></br>
@@ -161,7 +162,7 @@ function App() {
               </div>
               <div className="row c3">
                 <img src={meetupMessages} alt="Meetup Messages" className="image-left" onClick={handleClick}></img>
-                <p>Working in a team of 5, we quickly developed the concept for the app using React Native for the first time. In a matter of weeks, we had a complete roadmap to develop and promote this application.</p>
+                <p>I quickly developed the concept for the app using React Native for the first time. In a matter of weeks, I had a complete roadmap to develop and promote this application.</p>
               </div>
               <div className="row c3">
                 <p>For this coding project, time was short, and I was responsible for 100% of the coding. I went to my strengths, some of which I have been using since I attended the UNC Code Camp in 2016, while others I have added to my toolbox over the past two years. With a clear set of specifications, I was able to code the initial application in just ten days, giving the team time to review the app and provide feedback, and me time to make the necessary tweaks before our final presentation.</p>

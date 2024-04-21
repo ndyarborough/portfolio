@@ -119,8 +119,11 @@ footer h2 {
 }
 
 .profilePic {
-  width: 100%;
-  border-radius: 50%
+  width: 20vw;  
+  height: 20vw;
+  border-radius: 50%; /* Make it circular */
+  object-fit: cover; /* Maintain aspect ratio */
+  object-position: 70% 20%; /* Adjust position for slightly zoomed out */
 }
 
 .tech-stack {
@@ -553,7 +556,11 @@ h3 {
   cursor: pointer;
 }
 
-
+.row.c3 p {
+  font-size: 1.3em;
+  font-weight: 500;
+  text-align: left;
+}
 
 @media only screen and (max-width: 1340px) {
   .project-techs li {
