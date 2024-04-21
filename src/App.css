@@ -7,6 +7,10 @@
 * {
   font-family: var(--ubuntu-font);
   font-weight: 700;
+}
+
+body {
+  background: white;
 
 }
 
@@ -25,6 +29,7 @@ li {
 main {
   margin: 15vh auto;
   width: 60vw;
+  
 }
 
 .navbar {
@@ -119,6 +124,7 @@ footer h2 {
 }
 
 .tech-stack {
+  margin-top: 2em;
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -127,7 +133,7 @@ footer h2 {
   margin-bottom: 3vh;
   text-align: center;
   flex-direction: column;
-  /* height: 100%; */
+  background-color: white;
 }
 
 .tech-stack h4 {
@@ -325,17 +331,41 @@ footer h2 {
 }
 
 .meetup {
-  width: 100%;
+  display: flex;
+  flex-direction: column;
 }
 
-.imgContainer {
-  width: 100%
+.row {
+  display: flex;
+  flex-direction: row;
+  align-items: center; /* Center paragraphs vertically */
+  margin-bottom: 20px; /* Add spacing between rows */
 }
 
-.imgContainer img {
-  width: 16%;
-  margin: 2%
+.image-left,
+.image-right {
+  width: 50%; /* Make images take up half of the row width */
+  max-width: 300px; /* Adjust as needed */
+  border-radius: 20px;
 }
+
+.a76 {
+  width: 75em;
+}
+
+.image-left {
+  margin-right: 20px; /* Adjust spacing between image and text */
+}
+
+.image-right {
+  margin-left: 20px; /* Adjust spacing between image and text */
+}
+
+p {
+  font-size: 16px; /* Increase text size */
+  line-height: 1.5; /* Increase line height */
+}
+
 
 .column {
   width: 100%;
@@ -351,6 +381,21 @@ footer h2 {
   align-self: center;
 }
 
+.visit-meetup h2 {
+  background-color: black;
+  color: white;
+  margin: 0;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  padding-top: 1vh;
+  padding-bottom: 1vh;
+  font-size: 1.1em;
+  border-radius: 20px;
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 0;
+}
+
 .visit-meetup .icon-row {
   display: flex;
   flex-direction: row;
@@ -358,7 +403,6 @@ footer h2 {
   border: 1px solid black;
   border-radius: 20px;
   margin: 1em;
-  background-color: #00B0FF;
   padding: 1em 0em;
   justify-content: center;
 }
@@ -375,7 +419,7 @@ footer h2 {
 }
 
 .icon-row:hover {
-  background-color: #42c3ff;
+  background-color: #fc4e06;
 }
 
 .icon-row a {
@@ -415,6 +459,102 @@ footer h2 {
 .right-img {
   width: 30%;
 }
+
+/* .meetup-tech {
+  border: 1px solid black;
+  border-radius: 20px;
+  padding: 1em;
+}
+
+.meetup-tech .icon-item {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+} */
+
+.meetup-tech {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #f4f4f4;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  margin-top: 2em;
+  margin-bottom: 2em;
+}
+
+.icon-item {
+  text-align: center;
+}
+
+.icon-item img {
+  height: 10vh; /* Adjust this value to make all icons the same size */
+  object-fit: contain;
+  margin-bottom: 10px;
+}
+
+h3 {
+  font-size: 1.2em;
+  color: #333;
+}
+
+.plus-icon {
+  font-size: 1.5em;
+  color: #333;
+}
+
+/* Modal */
+.modal {
+  display: block; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1000; /* Sit on top */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgba(0, 0, 0, 0.9); /* Black w/ opacity */
+}
+
+/* Modal Content */
+.modal-content {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  max-width: 90vw; /* 90% of viewport width */
+  max-height: 90vh; /* 90% of viewport height */
+  width: auto; /* Let the width adjust according to the aspect ratio */
+  height: auto; /* Let the height adjust according to the aspect ratio */
+  overflow: auto;
+  background-color: #fefefe;
+  border-radius: 8px;
+  padding: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  z-index: 1001;
+}
+
+
+/* Close button */
+.close {
+  color: #aaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.close:hover,
+.close:focus {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+
+
 @media only screen and (max-width: 1340px) {
   .project-techs li {
     font-size: 1em;
