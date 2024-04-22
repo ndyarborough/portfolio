@@ -1,9 +1,10 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.5dd12ff5.css",
-    "main.js": "/portfolio/static/js/main.4f9f691f.js",
+    "main.css": "/portfolio/static/css/main.27f3d242.css",
+    "main.js": "/portfolio/static/js/main.6c0a5560.js",
     "static/media/yardland.png": "/portfolio/static/media/yardland.f006ba3c478bd2e1959e.png",
     "static/media/eventsherenow.png": "/portfolio/static/media/eventsherenow.b36b7e6cad915263adc6.png",
+    "static/media/meetup-2.png": "/portfolio/static/media/meetup-2.30d6f99a72236a8afd0e.png",
     "static/media/meetup-dashboard.png": "/portfolio/static/media/meetup-dashboard.1538b6bce6cd6067923a.png",
     "static/media/meetup-events.png": "/portfolio/static/media/meetup-events.94ed7d09a4b089ac1b27.png",
     "static/media/parker.png": "/portfolio/static/media/parker.7086fdde7abf1990b50d.png",
@@ -18,11 +19,11 @@
     "static/media/amazonec2.png": "/portfolio/static/media/amazonec2.4922a5cdd71c5beb5dda.png",
     "static/media/expo.svg": "/portfolio/static/media/expo.634a31deb0f0b2423f8cb73d8eaee03e.svg",
     "index.html": "/portfolio/index.html",
-    "main.5dd12ff5.css.map": "/portfolio/static/css/main.5dd12ff5.css.map",
-    "main.4f9f691f.js.map": "/portfolio/static/js/main.4f9f691f.js.map"
+    "main.27f3d242.css.map": "/portfolio/static/css/main.27f3d242.css.map",
+    "main.6c0a5560.js.map": "/portfolio/static/js/main.6c0a5560.js.map"
   },
   "entrypoints": [
-    "static/css/main.5dd12ff5.css",
-    "static/js/main.4f9f691f.js"
+    "static/css/main.27f3d242.css",
+    "static/js/main.6c0a5560.js"
   ]
 }
