@@ -2,6 +2,7 @@ import './App.css';
 import { useState, useEffect } from 'react';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import Home from './components/Home';
+import searchIcon from './imgs/searchIcon.png';
 import profilePic from './imgs/profilePic.jpg';
 import linkedIn from './imgs/linkedIn.png';
 import github from './imgs/github.png';
@@ -27,6 +28,8 @@ import googleplaces from './imgs/google-places.png';
 import expo from './imgs/expo.svg';
 import reactnative from './imgs/react-native.png';
 import meetupEvents from './imgs/meetup-events.png';
+import meetup2 from './imgs/meetup-2.png';
+
 import meetupDashboard from './imgs/meetup-dashboard.png';
 import meetupMessages from './imgs/yup.jpg';
 import meetupDetails from './imgs/meetup-details.png';
@@ -42,6 +45,15 @@ import Modal from './components/Modal';
 function App() {
   const [isMenuVisible, setMenuVisibility] = useState(false);
   const [modalSrc, setModalSrc] = useState(null);
+  const [isHovered, setIsHovered] = useState(false);
+
+  const handleMouseEnter = () => {
+    setIsHovered(true);
+  };
+
+  const handleMouseLeave = () => {
+    setIsHovered(false);
+  };
 
   const toggleMenu = () => {
     setMenuVisibility(!isMenuVisible);
@@ -95,10 +107,9 @@ function App() {
       <main>
         {modalSrc && <Modal src={modalSrc} onClose={closeModal} />}
         <div id='home' className='home'>
-          <div className='row'>
+          <div className='row h3'>
             <div className='column'>
               <h1>Noah Yarborough</h1>
-              <p>I'm a passionate, Full-Stack Software Engineer based in Raleigh, North Carolina. 📍</p>
               <div className="social-buttons">
                 <a target='_blank' href='https://www.linkedin.com/in/noah-yarborough/'><img src={linkedIn}></img></a>
                 <a target='_blank' href='https://github.com/ndyarborough'><img src={github}></img></a>
@@ -109,10 +120,47 @@ function App() {
             </div>
 
           </div>
-          <div className='column'>
+          <p className='leftAlign topMarg'>I’m a recent college graduate (12/2023) with a BSCS with a concentration in Software
+            Engineering, but I also have 7 years of coding experience. At 27, I’m a little older than most
+            recent college grads, and honestly, more mature, experienced, and hardworking than most.
             <br></br>
+            <br></br>
+            I am looking to develop software for a company where I can make a difference, be a solid contributor,
+            continue to gain experience and grow my skillset. I prefer working in a team environment, but
+            most of my experience is as a solo practitioner.
+
+            <br></br>
+            <br></br>
+            Either way, I’m ready to go to work. I&#39;m
+            passionate about my work. I’m seeking a position as a Full-Stack Software Engineer. I am
+            based in Raleigh, North Carolina. Read on to see and experience what I’m working on right
+            now… 📍</p>
+          <div className='column'>
             <div className='meetup'>
               <h2>Here Is What I Am Working on Right Now...</h2>
+              <p className='leftAlign'>My current project is called <strong className='reallyStrong'>MeetUp</strong>, a social media web and smartphone app dedicated to
+                getting college students with similar interests together in-person. <br></br><br></br>The app allows students to
+                create their own “events” for other students to see, show interest in, pursue, and confirm their
+                participation in. <br></br><br></br>These events could include almost anything students would be interested in,
+                such as midterm study groups, informal clubs, leisure activities, hobbies, exercise/sports, career
+                connections, team building, entrepreneurial activities, etc.</p>
+              <img src={meetupEvents} alt="Meetup Dashboard" className="image-right" onClick={handleClick}></img>
+
+              <h2>The Idea Behind <strong className='reallyStrong'>MeetUp</strong></h2>
+              <p className='leftAlign'>I noticed a disturbing trend while attending college. My freshman year, students were
+                interacting, making friends, developing relationships, and most importantly, having group
+                conversations: those intellectual debates about life that exposed us to ideas different from our
+                own and taught us to think critically. <br></br><br></br>Then COVID hit, shut things down, and isolated us from
+                one another. School became much more virtual, relying heavily on technology to connect us all.
+                When the pandemic ended, things did not return to normal. The isolation continued as the
+                social, video conferencing, and classroom apps we used during the pandemic largely continued.<br></br><br></br>
+                This online approach to college robbed students of face-to-face interactions, personal and
+                professional relationships, and the free exchange of differing points of view among colleagues
+                that leads to personal growth and lifelong connections. My solution: <strong className='reallyStrong'>MeetUp</strong>.</p>
+              <h2>Developing the App</h2>
+              <p>I developed this app with pure tired aggression.</p>
+              <h2>The Tools I’m Using for This Particular Project</h2>
+
               <div className='meetup-tech'>
                 <div className='icon-item'>
                   <img src={reactnative} alt="React Native"></img>
@@ -128,16 +176,7 @@ function App() {
                   <img src={expo} alt="Expo"></img>
                   <h3>Expo</h3>
                 </div>
-                {/* <div className='plus-icon'>+</div>
-  <div className='icon-item'>
-    <img src={googleplaces} alt="Google Places API"></img>
-    <h3>Google Places API</h3>
-  </div>
-  <div className='plus-icon'>+</div>
-  <div className='icon-item'>
-    <img src={mui} alt="Material UI"></img>
-    <h3>Material UI</h3>
-  </div> */}
+
                 {/* Front-end and back-end hosting sections */}
                 <div className='plus-icon'>+</div>
                 <div className='icon-item'>
@@ -150,15 +189,27 @@ function App() {
                   <h3>Amazon EC2</h3>
                 </div>
               </div>
+              <h2>Take a Look at <strong className='reallyStrong'>MeetUp</strong></h2>
+              <div className='take-a-look'>
+                <div className='left'>
+                  <p className='leftAlign'>I have continued to develop the <strong className='reallyStrong'>MeetUp</strong> app. It is a work-in-progress, but I invite you to take it
+                    for a spin. It shows, in part, the type of work I’m capable of. May I suggest you save a little time
+                    and sign in with the following credentials:</p>
 
-
-              <div className="row c3">
-                <img src={meetupDashboard} alt="Meetup Events" className="image-left a76" onClick={handleClick}></img>
-                <p>My Senior project was born from a disturbing trend I noticed while attending college. When I entered college, students were interacting, making new friends, developing relationships, and most importantly, having group conversations: those intellectual debates about life that exposed us to ideas different from our own and taught us to think critically. Then COVID hit, shut things down, and isolated us from one another. And when the pandemic was over, the isolation only continued as the social, video conferencing, and classroom apps we all continued to use every day emphasized virtual connections only. This online-only approach robbed students of face-to-face interactions, personal and professional relationships, and the free exchange of differing points of view among colleagues that leads to personal growth and lifelong connections.</p>
+                  <p className='leftAlign'>Username – <strong className='reallyStrong'>Parker</strong> <br></br> Password – <strong className='reallyStrong'>password</strong> (I know, I know, but this is just a test environment).</p>
+                  <p className='leftAlign'>Click <a href="http://meetup-ndyarborough.s3-website.us-east-2.amazonaws.com/">here</a> to try out <strong className='reallyStrong'>MeetUp</strong> on you PC or smartphone:</p>
+                  
+                </div>
+                <img
+                  src={meetup2}
+                  alt="Meetup Events"
+                  className="image-left a76"
+                  onClick={handleClick}
+                />
               </div>
+
+
               <div className="row c3">
-                <p>In response, I came up with the idea for MeetUp, a social media web and smartphone app dedicated to getting people with similar interests together in-person. The app would allow students to create their own “events” for other students with similar interests to see, show interest in, and confirm their attendance. These events could include almost anything students would be interested in, such as midterm study groups, informal clubs, leisure activities, hobbies, exercise/sports, career connections, team building, entrepreneurial activities, etc.</p>
-                <img src={meetupEvents} alt="Meetup Dashboard" className="image-right" onClick={handleClick}></img>
               </div>
               <div className="row c3">
                 <img src={meetupMessages} alt="Meetup Messages" className="image-left" onClick={handleClick}></img>
@@ -169,8 +220,9 @@ function App() {
                 <img src={meetupDetails} alt="Meetup Details" className="image-right" onClick={handleClick}></img>
               </div>
 
+
               <div className='visit-meetup'>
-                <h2>Try out my Latest Creation, Meetup!</h2>
+                <h2>Try out my Latest Creation, <strong className='reallyStrong'>Meetup!</strong></h2>
                 <div className='row'>
                   <div className='left'>
                     <h3>Login as Parker to check it out!</h3>
@@ -217,7 +269,7 @@ function App() {
             </ul>
           </div>
         </div>
-        <div className='about' id='about'>
+        {/* <div className='about' id='about'>
           <div className='column'>
             <h2 className='blue-header'>About Me</h2>
             <h4>A dedicated Software Engineer based in Raleigh, North Carolina 📍</h4>
@@ -228,7 +280,7 @@ function App() {
           <div className='column'>
             <img onClick={handleClick} className='setup' src={setup}></img>
           </div>
-        </div>
+        </div> */}
         <div className='projects' id='projects'>
           <h2 className='blue-header'>Portfolio</h2>
           <h4>Each project is a unique piece of development 🧩</h4>
