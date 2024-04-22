@@ -522,6 +522,10 @@ p {
   margin-bottom: 2em;
 }
 
+.meetup-tech .icon-item h3 {
+  margin: 0
+}
+
 .icon-item {
   text-align: center;
 }
