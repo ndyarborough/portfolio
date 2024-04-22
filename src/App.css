@@ -219,7 +219,12 @@ footer h2 {
 }
 
 .projects {
-  margin-top: 20vh;
+  margin-top: 2vh;
+}
+
+.projects.h2 .project {
+  margin-top: 0;
+  padding-top: 0;
 }
 
 .projects h4 {

@@ -12,6 +12,7 @@ import js from './imgs/js.png';
 import sql from './imgs/sql.png';
 import react from './imgs/react.jpg';
 import mongodb from './imgs/mongodb.png';
+import meetupLandscape from './imgs/meetup-landscape.png';
 import nodejs from './imgs/nodejs.png';
 import python from './imgs/python.png';
 import setup from './imgs/setup.jpg';
@@ -136,6 +137,31 @@ function App() {
             based in Raleigh, North Carolina. Read on to see and experience what I’m working on right
             now… 📍</p>
           <div className='column'>
+            <div className='tech-stack'>
+              <h4>Main Tech Stack </h4>
+              <ul className='tech-icons'>
+                <li><img src={html}></img><p>HTML5</p></li>
+                <li><img src={css}></img><p>CSS3</p></li>
+                <li><img src={js}></img><p>JavaScript</p></li>
+                <li><img src={react}></img><p className='special'>React</p></li>
+                <li><img src={mongodb}></img><p>MongoDb</p></li>
+                <li><img src={nodejs}></img><p>NodeJs</p></li>
+                <li><img src={aws}></img><p className='special'>Amazon Web Services</p></li>
+              </ul>
+            </div>
+            <div className='tech-stack'>
+              <h4>Have used before</h4>
+              <ul className='tech-icons'>
+                <li><img src={sql}></img><p>MySql</p></li>
+                <li><img src={python}></img><p>Python</p></li>
+                <li><img src={java}></img><p>Java</p></li>
+                <li><img src={reactnative}></img><p className='special'>React Native</p></li>
+                <li><img src={c}></img><p>C</p></li>
+                <li><img src={cplusplus}></img><p>C++</p></li>
+                <li><img src={csharp}></img><p>C#</p></li>
+
+              </ul>
+            </div>
             <div className='meetup'>
               <h2>Here Is What I Am Working on Right Now...</h2>
               <p className='leftAlign'>My current project is called <strong className='reallyStrong'>MeetUp</strong>, a social media web and smartphone app dedicated to
@@ -190,6 +216,79 @@ function App() {
                 </div>
               </div>
               <h2>Take a Look at <strong className='reallyStrong'>MeetUp</strong></h2>
+
+              <div className='projects h2' id='projects'>
+                <div className='project-container'>
+                  <div className='project'>
+                    <div className='column'>
+                      <img onClick={handleClick} className='project-pic' src={meetupLandscape}></img>
+                    </div>
+                    <div className='column c3'>
+                      <h6>Meetup</h6>
+                      <p>Log in as Parker to check it out</p>
+                      <ul className='project-techs'>
+                        <li>Username: <strong className='reallyStrong'>Parker</strong></li>
+                        <li>Password: <strong className='reallyStrong'>password</strong></li>
+                      </ul>
+                      <ul className='project-techs c3'>
+                        <li>
+                          <a target='_blank' href="https://github.com/ndyarborough/yardland">Code<img src={github}></img></a>
+                        </li>
+                        <li>
+                          <a target='_blank' href='https://ndyarborough.github.io/yardland'>Live Demo<img src={newTab}></img></a>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                <h2>Other Projects</h2>
+
+                  <div className='project'>
+                    <div className='column'>
+                      <img onClick={handleClick} className='project-pic' src={yardland}></img>
+                    </div>
+                    <div className='column c3'>
+                      <h6>YardLand 🪴</h6>
+                      <p>My cousin Chase and I ran a landscaping business together and this is our website. Check out all our services, hours, and contact information.</p>
+                      <ul className='project-techs'>
+                        <li>React</li>
+                        <li>NodeJs</li>
+                        <li>CSS Flex</li>
+                      </ul>
+                      <ul className='project-techs c3'>
+                        <li>
+                          <a target='_blank' href="https://github.com/ndyarborough/yardland">Code<img src={github}></img></a>
+                        </li>
+                        <li>
+                          <a target='_blank' href='https://ndyarborough.github.io/yardland'>Live Demo<img src={newTab}></img></a>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                  <div className='project'>
+                    <div className='column'>
+                      <img onClick={handleClick} className='project-pic' src={eventsherenow}></img>
+                    </div>
+                    <div className='column c3'>
+                      <h6>Events Here Now 🗓️</h6>
+                      <p>Find an event here, across the world, now, or any time in the future for that matter. This app optimizes results from multiple APIs to help users find out what is happening.</p>
+                      <ul className='project-techs'>
+                        <li>HTML</li>
+                        <li>CSS</li>
+                        <li>JavaScript</li>
+                        <li>Firebase</li>
+                      </ul>
+                      <ul className='project-techs c3'>
+                        <li>
+                          <a target='_blank' href="https://github.com/ndyarborough/Events-Here-Now">Code<img src={github}></img></a>
+                        </li>
+                        <li>
+                          <a target='_blank' href='https://ndyarborough.github.io/Events-Here-Now/index.html'>Live Demo<img src={newTab}></img></a>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </div>
               <div className='take-a-look'>
                 <div className='left'>
                   <p className='leftAlign'>I have continued to develop the <strong className='reallyStrong'>MeetUp</strong> app. It is a work-in-progress, but I invite you to take it
@@ -198,7 +297,7 @@ function App() {
 
                   <p className='leftAlign'>Username – <strong className='reallyStrong'>Parker</strong> <br></br> Password – <strong className='reallyStrong'>password</strong> (I know, I know, but this is just a test environment).</p>
                   <p className='leftAlign'>Click <a href="http://meetup-ndyarborough.s3-website.us-east-2.amazonaws.com/">here</a> to try out <strong className='reallyStrong'>MeetUp</strong> on you PC or smartphone:</p>
-                  
+
                 </div>
                 <img
                   src={meetup2}
@@ -243,95 +342,10 @@ function App() {
             </div>
 
           </div>
-          <div className='tech-stack'>
-            <h4>Main Tech Stack </h4>
-            <ul className='tech-icons'>
-              <li><img src={html}></img><p>HTML5</p></li>
-              <li><img src={css}></img><p>CSS3</p></li>
-              <li><img src={js}></img><p>JavaScript</p></li>
-              <li><img src={react}></img><p className='special'>React</p></li>
-              <li><img src={mongodb}></img><p>MongoDb</p></li>
-              <li><img src={nodejs}></img><p>NodeJs</p></li>
-              <li><img src={aws}></img><p className='special'>Amazon Web Services</p></li>
-            </ul>
-          </div>
-          <div className='tech-stack'>
-            <h4>Have used before</h4>
-            <ul className='tech-icons'>
-              <li><img src={sql}></img><p>MySql</p></li>
-              <li><img src={python}></img><p>Python</p></li>
-              <li><img src={java}></img><p>Java</p></li>
-              <li><img src={reactnative}></img><p className='special'>React Native</p></li>
-              <li><img src={c}></img><p>C</p></li>
-              <li><img src={cplusplus}></img><p>C++</p></li>
-              <li><img src={csharp}></img><p>C#</p></li>
 
-            </ul>
-          </div>
         </div>
-        {/* <div className='about' id='about'>
-          <div className='column'>
-            <h2 className='blue-header'>About Me</h2>
-            <h4>A dedicated Software Engineer based in Raleigh, North Carolina 📍</h4>
-            <p>
-              As a Software Engineer, I possess an impressive aresenal of skills in HTML, CSS, JavaScript, React, NodeJs, MongoDb, Restful APIs. I excel in all facets of building applications from design to deployment. My expertise lies in engaging with coworkers and clients in order to create the best possible end-product in the given period of time. I thrive in team enviroments, but am not afraid to start with individual projects.
-            </p>
-          </div>
-          <div className='column'>
-            <img onClick={handleClick} className='setup' src={setup}></img>
-          </div>
-        </div> */}
-        <div className='projects' id='projects'>
-          <h2 className='blue-header'>Portfolio</h2>
-          <h4>Each project is a unique piece of development 🧩</h4>
-          <div className='project-container'>
-            <div className='project'>
-              <div className='column'>
-                <img onClick={handleClick} className='project-pic' src={yardland}></img>
-              </div>
-              <div className='column c3'>
-                <h6>YardLand 🪴</h6>
-                <p>My cousin Chase and I ran a landscaping business together and this is our website. Check out all our services, hours, and contact information.</p>
-                <ul className='project-techs'>
-                  <li>React</li>
-                  <li>NodeJs</li>
-                  <li>CSS Flex</li>
-                </ul>
-                <ul className='project-techs c3'>
-                  <li>
-                    <a target='_blank' href="https://github.com/ndyarborough/yardland">Code<img src={github}></img></a>
-                  </li>
-                  <li>
-                    <a target='_blank' href='https://ndyarborough.github.io/yardland'>Live Demo<img src={newTab}></img></a>
-                  </li>
-                </ul>
-              </div>
-            </div>
-            <div className='project'>
-              <div className='column'>
-                <img onClick={handleClick} className='project-pic' src={eventsherenow}></img>
-              </div>
-              <div className='column c3'>
-                <h6>Events Here Now 🗓️</h6>
-                <p>Find an event here, across the world, now, or any time in the future for that matter. This app optimizes results from multiple APIs to help users find out what is happening.</p>
-                <ul className='project-techs'>
-                  <li>HTML</li>
-                  <li>CSS</li>
-                  <li>JavaScript</li>
-                  <li>Firebase</li>
-                </ul>
-                <ul className='project-techs c3'>
-                  <li>
-                    <a target='_blank' href="https://github.com/ndyarborough/Events-Here-Now">Code<img src={github}></img></a>
-                  </li>
-                  <li>
-                    <a target='_blank' href='https://ndyarborough.github.io/Events-Here-Now/index.html'>Live Demo<img src={newTab}></img></a>
-                  </li>
-                </ul>
-              </div>
-            </div>
-          </div>
-        </div>
+
+
         <div className='contact' id='contact'>
           <h2 className='blue-header'>Contact</h2>
           <h4>Don't Be shy! Hit me up! 👇</h4>
