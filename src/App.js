@@ -184,7 +184,18 @@ function App() {
                 professional relationships, and the free exchange of differing points of view among colleagues
                 that leads to personal growth and lifelong connections. My solution: <strong className='reallyStrong'>MeetUp</strong>.</p>
               <h2>Developing the App</h2>
-              <p>I developed this app with pure tired aggression.</p>
+              <p>MeetUp became my senior project. Working with my professor and several classmates, we
+                navigated through the discovery phase as we researched competitors, defined features,
+                gathered requirements and specified deadlines. We then began the design phase using learned
+                techniques such as sketching, wireframing, and rapid prototyping sketches.<br></br><br></br> Upon approval, I
+                began the development phase, and I was now on my own. I used a variety of tools to complete
+                the front-end and back-end coding, some of which I had been using for more than 5 years,
+                some that I recently learned , including AI, and one, React Native, that I had never used before.
+                <br></br><br></br>Within 10 days, I had a minimum viable product in hand ready for review. After receiving
+                feedback from the class, I was able to release the application to my professor on schedule.
+                Since graduation, I have continued to enhance MeetUp in hopes that one day, it might be used
+                on college campuses everywhere for students to find lifelong friends, peers, cohorts, and
+                partnerships that make this world a better place for everyone..</p>
               <h2>The Tools I’m Using for This Particular Project</h2>
 
               <div className='meetup-tech'>
@@ -240,7 +251,7 @@ function App() {
                       </ul>
                     </div>
                   </div>
-                <h2>Other Projects</h2>
+                  <h2>Other Projects</h2>
 
                   <div className='project'>
                     <div className='column'>
