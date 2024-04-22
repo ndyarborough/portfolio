@@ -386,7 +386,8 @@ footer h2 {
 }
 
 p {
-  font-size: 16px; /* Increase text size */
+  font-size: 1.1em; /* Increase text size */
+  font-weight: 400;
   line-height: 1.5; /* Increase line height */
 }
 
@@ -610,8 +611,8 @@ h3 {
 }
 
 .row.c3 p {
-  font-size: 1.3em;
-  font-weight: 500;
+  font-size: 1.2em;
+  font-weight: 400;
   text-align: left;
 }
 

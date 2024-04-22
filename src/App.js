@@ -192,7 +192,7 @@ function App() {
                 professional relationships, and the free exchange of differing points of view among colleagues
                 that leads to personal growth and lifelong connections. My solution: <strong className='reallyStrong'>MeetUp</strong>.</p>
               <h2>Developing the App</h2>
-              <p>MeetUp became my senior project. Working with my professor and several classmates, we
+              <p className='leftAlign'>MeetUp became my senior project. Working with my professor and several classmates, we
                 navigated through the discovery phase as we researched competitors, defined features,
                 gathered requirements and specified deadlines. We then began the design phase using learned
                 techniques such as sketching, wireframing, and rapid prototyping sketches.<br></br><br></br> Upon approval, I
