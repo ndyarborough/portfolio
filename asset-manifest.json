@@ -1,9 +1,10 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.f1f44c38.css",
-    "main.js": "/portfolio/static/js/main.6c0a5560.js",
+    "main.css": "/portfolio/static/css/main.9cb9116a.css",
+    "main.js": "/portfolio/static/js/main.75d5655e.js",
     "static/media/yardland.png": "/portfolio/static/media/yardland.f006ba3c478bd2e1959e.png",
     "static/media/eventsherenow.png": "/portfolio/static/media/eventsherenow.b36b7e6cad915263adc6.png",
+    "static/media/meetup-landscape.png": "/portfolio/static/media/meetup-landscape.c87d9f041216e358efef.png",
     "static/media/meetup-2.png": "/portfolio/static/media/meetup-2.30d6f99a72236a8afd0e.png",
     "static/media/meetup-dashboard.png": "/portfolio/static/media/meetup-dashboard.1538b6bce6cd6067923a.png",
     "static/media/meetup-events.png": "/portfolio/static/media/meetup-events.94ed7d09a4b089ac1b27.png",
@@ -19,11 +20,11 @@
     "static/media/amazonec2.png": "/portfolio/static/media/amazonec2.4922a5cdd71c5beb5dda.png",
     "static/media/expo.svg": "/portfolio/static/media/expo.634a31deb0f0b2423f8cb73d8eaee03e.svg",
     "index.html": "/portfolio/index.html",
-    "main.f1f44c38.css.map": "/portfolio/static/css/main.f1f44c38.css.map",
-    "main.6c0a5560.js.map": "/portfolio/static/js/main.6c0a5560.js.map"
+    "main.9cb9116a.css.map": "/portfolio/static/css/main.9cb9116a.css.map",
+    "main.75d5655e.js.map": "/portfolio/static/js/main.75d5655e.js.map"
   },
   "entrypoints": [
-    "static/css/main.f1f44c38.css",
-    "static/js/main.6c0a5560.js"
+    "static/css/main.9cb9116a.css",
+    "static/js/main.75d5655e.js"
   ]
 }
