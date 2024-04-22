@@ -164,13 +164,21 @@ function App() {
             </div>
             <div className='meetup'>
               <h2>Here Is What I Am Working on Right Now...</h2>
-              <p className='leftAlign'>My current project is called <strong className='reallyStrong'>MeetUp</strong>, a social media web and smartphone app dedicated to
-                getting college students with similar interests together in-person. <br></br><br></br>The app allows students to
-                create their own “events” for other students to see, show interest in, pursue, and confirm their
-                participation in. <br></br><br></br>These events could include almost anything students would be interested in,
-                such as midterm study groups, informal clubs, leisure activities, hobbies, exercise/sports, career
-                connections, team building, entrepreneurial activities, etc.</p>
-              <img src={meetupEvents} alt="Meetup Dashboard" className="image-right" onClick={handleClick}></img>
+              <div className='row'>
+                <div className='d8'>
+                  <p className='leftAlign'>
+                    My current project is called Meetup, a social media web and smartphone app dedicated to
+                    getting college students with similar interests together in-person.
+                  </p>
+                  <p className='leftAlign'>The app allows students to
+                    create their own “events” for other students to see, show interest in, pursue, and confirm their
+                    participation in. </p>
+                  <p className='leftAlign'>These events could include almost anything students would be interested in,
+                    such as midterm study groups, informal clubs, leisure activities, hobbies, exercise/sports, career
+                    connections, team building, entrepreneurial activities, etc.</p>
+                </div>
+                <img src={meetupEvents} alt="Meetup Dashboard" className="image-right" onClick={handleClick}></img>
+              </div>
 
               <h2>The Idea Behind <strong className='reallyStrong'>MeetUp</strong></h2>
               <p className='leftAlign'>I noticed a disturbing trend while attending college. My freshman year, students were
