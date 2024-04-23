@@ -181,7 +181,7 @@ function App() {
               <p className='leftAlign'>MeetUp became my senior project. Working with my professor and several classmates, we
                 navigated through the discovery phase as we researched competitors, defined features,
                 gathered requirements and specified deadlines. We then began the design phase using learned
-                techniques such as sketching, wireframing, and rapid prototyping sketches.<br></br><br></br> Upon approval, I
+                techniques such as sketching, wireframing, and rapid prototyping.<br></br><br></br> Upon approval, I
                 began the development phase, and I was now on my own. I used a variety of tools to complete
                 the front-end and back-end coding, some of which I had been using for more than 5 years,
                 some that I recently learned , including AI, and one, React Native, that I had never used before.
@@ -245,7 +245,7 @@ function App() {
                       </ul>
                       <ul className='project-techs c3'>
                         <li>
-                          <a target='_blank' href="https://github.com/Ryanslep/Meetup">Code<img src={github}></img></a>
+                          <a target='_blank' href="https://github.com/ndyarborough/Meetup_2.0">Code<img src={github}></img></a>
                         </li>
                         <li>
                           <a target='_blank' href='http://meetup-ndyarborough.s3-website.us-east-2.amazonaws.com/'>Live Demo<img src={newTab}></img></a>
@@ -363,6 +363,18 @@ function App() {
           <h2>Contact</h2>
           <h4>Don't Be shy! Hit me up! 👇</h4>
           <ul>
+            <li>
+            {/* <img src={location}></img> */}
+
+              <div>
+              <h5>Noah Yarborough</h5>
+              <div className='row'>
+                  <a target='_blank' href='https://www.linkedin.com/in/noah-yarborough/'><img src={linkedIn}></img></a>
+                  <a target='_blank' href='https://github.com/ndyarborough'><img src={github}></img></a>
+                </div>
+              </div>
+             
+            </li>
             <li>
               <img src={location}></img>
               <div>
