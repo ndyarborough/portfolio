@@ -15,28 +15,20 @@ import mongodb from './imgs/mongodb.png';
 import meetupLandscape from './imgs/meetup-landscape.png';
 import nodejs from './imgs/nodejs.png';
 import python from './imgs/python.png';
-import setup from './imgs/setup.jpg';
 import c from './imgs/c.png';
 import cplusplus from './imgs/cplusplus.png';
 import csharp from './imgs/csharp.png';
 import aws from './imgs/aws.png';
 import java from './imgs/java.png';
-import parker from './imgs/parker.png';
 import amazons3 from './imgs/amazons3.jpg';
 import amazonec2 from './imgs/amazonec2.png';
-import mui from './imgs/mui.png';
+import moping from './imgs/moping.jpg';
 import googleplaces from './imgs/google-places.png';
 import expo from './imgs/expo.svg';
 import ticketmaster from './imgs/ticketmaster.png';
 import reactnative from './imgs/react-native.png';
 import googleCloud from './imgs/google-cloud.png';
 import meetupEvents from './imgs/meetup-events.png';
-import meetup2 from './imgs/meetup-2.png';
-
-import meetupDashboard from './imgs/meetup-dashboard.png';
-import meetupMessages from './imgs/yup.jpg';
-import meetupDetails from './imgs/meetup-details.png';
-import meetupSendMessage from './imgs/meetup-send-message.png';
 import mail from './imgs/mail.png';
 import location from './imgs/location.png';
 import newTab from './imgs/newTab.png';
@@ -49,15 +41,6 @@ import Modal from './components/Modal';
 function App() {
   const [isMenuVisible, setMenuVisibility] = useState(false);
   const [modalSrc, setModalSrc] = useState(null);
-  const [isHovered, setIsHovered] = useState(false);
-
-  const handleMouseEnter = () => {
-    setIsHovered(true);
-  };
-
-  const handleMouseLeave = () => {
-    setIsHovered(false);
-  };
 
   const toggleMenu = () => {
     setMenuVisibility(!isMenuVisible);
@@ -185,7 +168,9 @@ function App() {
               <p className='leftAlign'>I noticed a disturbing trend while attending college. My freshman year, students were
                 interacting, making friends, developing relationships, and most importantly, having group
                 conversations: those intellectual debates about life that exposed us to ideas different from our
-                own and taught us to think critically. <br></br><br></br>Then COVID hit, shut things down, and isolated us from
+                own and taught us to think critically.</p>
+                <img className='specialImg' alt='Moping college student' src={moping}></img>
+                <p>Then COVID hit, shut things down, and isolated us from
                 one another. School became much more virtual, relying heavily on technology to connect us all.
                 When the pandemic ended, things did not return to normal. The isolation continued as the
                 social, video conferencing, and classroom apps we used during the pandemic largely continued.<br></br><br></br>

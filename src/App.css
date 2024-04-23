@@ -603,6 +603,10 @@ h3 {
   cursor: pointer;
 }
 
+.specialImg {
+  border-radius: 20px;
+}
+
 .close:hover,
 .close:focus {
   color: black;
