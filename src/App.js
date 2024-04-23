@@ -27,7 +27,9 @@ import amazonec2 from './imgs/amazonec2.png';
 import mui from './imgs/mui.png';
 import googleplaces from './imgs/google-places.png';
 import expo from './imgs/expo.svg';
+import ticketmaster from './imgs/ticketmaster.png';
 import reactnative from './imgs/react-native.png';
+import googleCloud from './imgs/google-cloud.png';
 import meetupEvents from './imgs/meetup-events.png';
 import meetup2 from './imgs/meetup-2.png';
 
@@ -41,6 +43,7 @@ import newTab from './imgs/newTab.png';
 import eventsherenow from './imgs/eventsherenow.png';
 import yardland from './imgs/yardland.png';
 import menu from './imgs/menu.png';
+import googleMaps from './imgs/google-maps.jpg';
 import { Link } from 'react-scroll';
 import Modal from './components/Modal';
 function App() {
@@ -144,6 +147,7 @@ function App() {
                 <li><img src={css}></img><p>CSS3</p></li>
                 <li><img src={js}></img><p>JavaScript</p></li>
                 <li><img src={react}></img><p className='special'>React</p></li>
+                <li><img src={react}></img><p className='special'>React Native</p></li>
                 <li><img src={mongodb}></img><p>MongoDb</p></li>
                 <li><img src={nodejs}></img><p>NodeJs</p></li>
                 <li><img src={aws}></img><p className='special'>Amazon Web Services</p></li>
@@ -153,9 +157,12 @@ function App() {
               <h4>Have used before</h4>
               <ul className='tech-icons'>
                 <li><img src={sql}></img><p>MySql</p></li>
+                <li><img src={googleplaces}></img><p>Google Places API</p></li>
+                <li><img src={googleMaps}></img><p>Google Maps API</p></li>
                 <li><img src={python}></img><p>Python</p></li>
+                <li><img className='lilRight' src={ticketmaster}></img><p>Tickemaster API</p></li>
                 <li><img src={java}></img><p>Java</p></li>
-                <li><img src={reactnative}></img><p className='special'>React Native</p></li>
+                <li><img src={googleCloud}></img><p>Google Cloud Platform</p></li>
                 <li><img src={c}></img><p>C</p></li>
                 <li><img src={cplusplus}></img><p>C++</p></li>
                 <li><img src={csharp}></img><p>C#</p></li>
@@ -261,13 +268,38 @@ function App() {
                   </div>
                   <h2>Other Projects</h2>
 
+                 
+                  <div className='project'>
+                    <div className='column'>
+                      <img onClick={handleClick} className='project-pic' src={eventsherenow}></img>
+                    </div>
+                    <div className='column c3'>
+                      <h6>Events Here Now 🗓️</h6>
+                      <p>Find an event here, across the world, now, or any time in the future for that matter. This app optimizes results from multiple APIs to help users find out what is happening. <br></br><br></br>Tied together multiple different live data pools such as Google Maps Api, Google Places Api, and TicketMaster Api. Get live data on events from anywhere in the world all in a ping on the map.</p>
+                      <ul className='project-techs'>
+                        <li>HTML</li>
+                        <li>CSS</li>
+                        <li>JavaScript</li>
+                        <li>Firebase</li>
+                      </ul>
+                      <ul className='project-techs c3'>
+                        <li>
+                          <a target='_blank' href="https://github.com/ndyarborough/Events-Here-Now">Code<img src={github}></img></a>
+                        </li>
+                        <li> 
+                          <a target='_blank' href='https://ndyarborough.github.io/Events-Here-Now/index.html'>Live Demo<img src={newTab}></img></a>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+
                   <div className='project'>
                     <div className='column'>
                       <img onClick={handleClick} className='project-pic' src={yardland}></img>
                     </div>
                     <div className='column c3'>
                       <h6>YardLand 🪴</h6>
-                      <p>My cousin Chase and I ran a landscaping business together and this is our website. Check out all our services, hours, and contact information.</p>
+                      <p>This is a sample of what I can do for a small business. Nothing special here, just a sleek no-fuss app that showcases the different services for a local landcaping business. <br></br><br></br>Check out the hours, services, and contact information to find out what is best for your yard.</p>
                       <ul className='project-techs'>
                         <li>React</li>
                         <li>NodeJs</li>
@@ -283,32 +315,10 @@ function App() {
                       </ul>
                     </div>
                   </div>
-                  <div className='project'>
-                    <div className='column'>
-                      <img onClick={handleClick} className='project-pic' src={eventsherenow}></img>
-                    </div>
-                    <div className='column c3'>
-                      <h6>Events Here Now 🗓️</h6>
-                      <p>Find an event here, across the world, now, or any time in the future for that matter. This app optimizes results from multiple APIs to help users find out what is happening.</p>
-                      <ul className='project-techs'>
-                        <li>HTML</li>
-                        <li>CSS</li>
-                        <li>JavaScript</li>
-                        <li>Firebase</li>
-                      </ul>
-                      <ul className='project-techs c3'>
-                        <li>
-                          <a target='_blank' href="https://github.com/ndyarborough/Events-Here-Now">Code<img src={github}></img></a>
-                        </li>
-                        <li>
-                          <a target='_blank' href='https://ndyarborough.github.io/Events-Here-Now/index.html'>Live Demo<img src={newTab}></img></a>
-                        </li>
-                      </ul>
-                    </div>
-                  </div>
+
                 </div>
               </div>
-              <div className='take-a-look'>
+              {/* <div className='take-a-look'>
                 <div className='left'>
                   <p className='leftAlign'>I have continued to develop the <strong className='reallyStrong'>MeetUp</strong> app. It is a work-in-progress, but I invite you to take it
                     for a spin. It shows, in part, the type of work I’m capable of. May I suggest you save a little time
@@ -324,12 +334,9 @@ function App() {
                   className="image-left a76"
                   onClick={handleClick}
                 />
-              </div>
+              </div> */}
 
-
-              <div className="row c3">
-              </div>
-              <div className="row c3">
+              {/* <div className="row c3">
                 <img src={meetupMessages} alt="Meetup Messages" className="image-left" onClick={handleClick}></img>
                 <p>I quickly developed the concept for the app using React Native for the first time. In a matter of weeks, I had a complete roadmap to develop and promote this application.</p>
               </div>
@@ -357,7 +364,7 @@ function App() {
                     <img onClick={handleClick} src={parker} alt='screenshot of parkers dashboard'></img>
                   </div>
                 </div>
-              </div>
+              </div> */}
             </div>
 
           </div>

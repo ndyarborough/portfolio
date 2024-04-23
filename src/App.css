@@ -610,6 +610,10 @@ h3 {
   cursor: pointer;
 }
 
+.lilRight {
+  margin-right: 1em;
+}
+
 .row.c3 p {
   font-size: 1.2em;
   font-weight: 400;
