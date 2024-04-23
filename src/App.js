@@ -245,10 +245,18 @@ function App() {
                     </div>
                     <div className='column c3'>
                       <h6>Meetup</h6>
-                      <p>Log in as Parker to check it out</p>
+                      <p>This project demonstrates some of my current capabilities as a full-stack developer.</p>
+                      <p>Make an account or log in as Parker to check it out:</p>
                       <ul className='project-techs'>
                         <li>Username: <strong className='reallyStrong'>Parker</strong></li>
                         <li>Password: <strong className='reallyStrong'>password</strong></li>
+                      </ul>
+                      <ul className='project-techs'>
+                        <li>React Native |</li>
+                        <li>Express |</li>
+                        <li>MongoDb Atlas |</li>
+                        <li>Amazon S3 |</li>
+                        <li>Amazon EC2</li>
                       </ul>
                       <ul className='project-techs c3'>
                         <li>
@@ -269,7 +277,7 @@ function App() {
                     </div>
                     <div className='column c3'>
                       <h6>Events Here Now 🗓️</h6>
-                      <p>Find an event here, across the world, now, or any time in the future for that matter. This app optimizes results from multiple APIs to help users find out what is happening. <br></br><br></br>Tied together multiple different live data pools such as Google Maps API, Google Places API, and TicketMaster API. Get live data on events from anywhere in the world all in a ping on a map.</p>
+                      <p>This project demonstrates my ability to tie together data from multiple different APIs in order to create a powerful application.</p>
                       <ul className='project-techs'>
                         <li>HTML</li>
                         <li>CSS</li>
@@ -293,7 +301,7 @@ function App() {
                     </div>
                     <div className='column c3'>
                       <h6>YardLand 🪴</h6>
-                      <p>This is a sample of what I can do for a small business. Nothing special here, just a sleek no-fuss app that showcases the different services for a local landcaping business. <br></br><br></br>Check out the hours, services, and contact information to find out what is best for your yard.</p>
+                      <p>I completed this small-business website in one business day.</p>
                       <ul className='project-techs'>
                         <li>React</li>
                         <li>NodeJs</li>
