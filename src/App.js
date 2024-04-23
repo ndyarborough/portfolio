@@ -375,7 +375,7 @@ function App() {
 
 
         <div className='contact' id='contact'>
-          <h2 className='blue-header'>Contact</h2>
+          <h2>Contact</h2>
           <h4>Don't Be shy! Hit me up! 👇</h4>
           <ul>
             <li>
