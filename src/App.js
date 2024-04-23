@@ -80,9 +80,6 @@ function App() {
             <Link onClick={toggleMenu} to="home" smooth={true} duration={500} offset={-80}>Home</Link>
           </li>
           <li>
-            <Link onClick={toggleMenu} to="about" smooth={true} duration={500} offset={-80}>About</Link>
-          </li>
-          <li>
             <Link onClick={toggleMenu} to="projects" smooth={true} duration={500} offset={-80}>Projects</Link>
           </li>
           <li>
@@ -255,10 +252,10 @@ function App() {
                       </ul>
                       <ul className='project-techs c3'>
                         <li>
-                          <a target='_blank' href="https://github.com/ndyarborough/yardland">Code<img src={github}></img></a>
+                          <a target='_blank' href="https://github.com/Ryanslep/Meetup">Code<img src={github}></img></a>
                         </li>
                         <li>
-                          <a target='_blank' href='https://ndyarborough.github.io/yardland'>Live Demo<img src={newTab}></img></a>
+                          <a target='_blank' href='http://meetup-ndyarborough.s3-website.us-east-2.amazonaws.com/'>Live Demo<img src={newTab}></img></a>
                         </li>
                       </ul>
                     </div>
@@ -272,7 +269,7 @@ function App() {
                     </div>
                     <div className='column c3'>
                       <h6>Events Here Now 🗓️</h6>
-                      <p>Find an event here, across the world, now, or any time in the future for that matter. This app optimizes results from multiple APIs to help users find out what is happening. <br></br><br></br>Tied together multiple different live data pools such as Google Maps Api, Google Places Api, and TicketMaster Api. Get live data on events from anywhere in the world all in a ping on the map.</p>
+                      <p>Find an event here, across the world, now, or any time in the future for that matter. This app optimizes results from multiple APIs to help users find out what is happening. <br></br><br></br>Tied together multiple different live data pools such as Google Maps API, Google Places API, and TicketMaster API. Get live data on events from anywhere in the world all in a ping on a map.</p>
                       <ul className='project-techs'>
                         <li>HTML</li>
                         <li>CSS</li>
