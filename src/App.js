@@ -97,9 +97,6 @@ function App() {
             <Link onClick={toggleMenu} to="home" smooth={true} duration={500} offset={-80}>Home</Link>
           </li>
           <li>
-            <Link onClick={toggleMenu} to="about" smooth={true} duration={500} offset={-80}>About</Link>
-          </li>
-          <li>
             <Link onClick={toggleMenu} to="projects" smooth={true} duration={500} offset={-80}>Projects</Link>
           </li>
           <li>
