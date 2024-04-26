@@ -9,6 +9,7 @@ import github from './imgs/github.png';
 import html from './imgs/html.png';
 import css from './imgs/css.png';
 import js from './imgs/js.png';
+import githubBlack from './imgs/github-black.png';
 import sql from './imgs/sql.png';
 import react from './imgs/react.jpg';
 import mongodb from './imgs/mongodb.png';
@@ -147,7 +148,7 @@ function App() {
               </ul>
             </div>
             <div className='meetup'>
-              <h2>Here Is What I Am Working on Right Now...</h2>
+              <h2 className='themed-header'>Here Is What I Am Working on Right Now...</h2>
               <div className='row'>
                 <div className='d8'>
                   <p className='leftAlign'>
@@ -164,7 +165,7 @@ function App() {
                 <img src={meetupEvents} alt="Meetup Dashboard" className="image-right" onClick={handleClick}></img>
               </div>
 
-              <h2>The Idea Behind <strong className='reallyStrong'>MeetUp</strong></h2>
+              <h2 className='themed-header'>The Idea Behind <strong className='reallyStrong'>MeetUp</strong></h2>
               <p className='leftAlign'>I noticed a disturbing trend while attending college. My freshman year, students were
                 interacting, making friends, developing relationships, and most importantly, having group
                 conversations: those intellectual debates about life that exposed us to ideas different from our
@@ -177,7 +178,7 @@ function App() {
                 This online approach to college robbed students of face-to-face interactions, personal and
                 professional relationships, and the free exchange of differing points of view among colleagues
                 that leads to personal growth and lifelong connections. My solution: <strong className='reallyStrong'>MeetUp</strong>.</p>
-              <h2>Developing the App</h2>
+              <h2 className='themed-header'>Developing the App</h2>
               <p className='leftAlign'>MeetUp became my senior project. Working with my professor and several classmates, we
                 navigated through the discovery phase as we researched competitors, defined features,
                 gathered requirements and specified deadlines. We then began the design phase using learned
@@ -190,7 +191,7 @@ function App() {
                 Since graduation, I have continued to enhance MeetUp in hopes that one day, it might be used
                 on college campuses everywhere for students to find lifelong friends, peers, cohorts, and
                 partnerships that make this world a better place for everyone..</p>
-              <h2>The Tools I’m Using for This Particular Project</h2>
+              <h2 className='themed-header'>The Tools I’m Using for This Particular Project</h2>
 
               <div className='meetup-tech'>
                 <div className='icon-item'>
@@ -220,7 +221,7 @@ function App() {
                   <h3>Amazon EC2</h3>
                 </div>
               </div>
-              <h2>Take a Look at <strong className='reallyStrong'>MeetUp</strong></h2>
+              <h2 className='themed-header'>Take a Look at <strong className='reallyStrong'>MeetUp</strong></h2>
 
               <div className='projects h2' id='projects'>
                 <div className='project-container'>
@@ -236,11 +237,11 @@ function App() {
                         <li>Username: <strong className='reallyStrong'>Parker</strong></li>
                         <li>Password: <strong className='reallyStrong'>password</strong></li>
                       </ul>
-                      <ul className='project-techs'>
-                        <li>React Native |</li>
-                        <li>Express |</li>
-                        <li>MongoDb Atlas |</li>
-                        <li>Amazon S3 |</li>
+                      <ul className='project-techs c5'>
+                        <li>React Native</li>
+                        <li>Express</li>
+                        <li>MongoDb Atlas</li>
+                        <li>Amazon S3</li>
                         <li>Amazon EC2</li>
                       </ul>
                       <ul className='project-techs c3'>
@@ -253,7 +254,7 @@ function App() {
                       </ul>
                     </div>
                   </div>
-                  <h2>Other Projects</h2>
+                  <h2 className='themed-header'>Other Projects</h2>
 
                  
                   <div className='project'>
@@ -360,7 +361,7 @@ function App() {
 
 
         <div className='contact' id='contact'>
-          <h2>Contact</h2>
+          <h2 className='themed-header'>Contact</h2>
           <h4>Don't Be shy! Hit me up! 👇</h4>
           <ul>
             <li>
@@ -370,7 +371,7 @@ function App() {
               <h5>Noah Yarborough</h5>
               <div className='row'>
                   <a target='_blank' href='https://www.linkedin.com/in/noah-yarborough/'><img src={linkedIn}></img></a>
-                  <a target='_blank' href='https://github.com/ndyarborough'><img src={github}></img></a>
+                  <a target='_blank' href='https://github.com/ndyarborough'><img src={githubBlack}></img></a>
                 </div>
               </div>
              
