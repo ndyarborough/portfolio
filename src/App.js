@@ -94,7 +94,7 @@ function App() {
               <h1>Noah Yarborough</h1>
               <div className="social-buttons">
                 <a target='_blank' href='https://www.linkedin.com/in/noah-yarborough/'><img src={linkedIn}></img></a>
-                <a target='_blank' href='https://github.com/ndyarborough'><img src={github}></img></a>
+                <a target='_blank' href='https://github.com/ndyarborough'><img src={githubBlack}></img></a>
               </div>
             </div>
             <div className='column c2'>

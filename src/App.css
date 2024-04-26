@@ -301,11 +301,7 @@ footer h2 {
 }
 
 .project-techs.c3 li a:hover {
-  /* background-color: rgba(0, 0, 0, .7); */
-}
-
-.project-techs.c3 li a:active {
-  background-color: rgb(194, 187, 177);
+  background-color: rgba(0, 0, 0, .7);
 }
 
 .project-techs.c3 li img {
