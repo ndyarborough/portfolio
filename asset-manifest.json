@@ -1,7 +1,8 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.b1643769.css",
-    "main.js": "/portfolio/static/js/main.f3e9c602.js",
+    "main.css": "/portfolio/static/css/main.a806769d.css",
+    "main.js": "/portfolio/static/js/main.c516ee18.js",
+    "static/media/profilePic.jpg": "/portfolio/static/media/profilePic.13178a25eeae7f2aad35.jpg",
     "static/media/yardland.png": "/portfolio/static/media/yardland.f006ba3c478bd2e1959e.png",
     "static/media/moping.jpg": "/portfolio/static/media/moping.a05f3166062f19fa85ef.jpg",
     "static/media/meetup-landscape.png": "/portfolio/static/media/meetup-landscape.0e430a8a230f1e8d4d51.png",
@@ -9,17 +10,16 @@
     "static/media/meetup-events.png": "/portfolio/static/media/meetup-events.94ed7d09a4b089ac1b27.png",
     "static/media/google-maps.jpg": "/portfolio/static/media/google-maps.07ce34556a01a1831d11.jpg",
     "static/media/ticketmaster.png": "/portfolio/static/media/ticketmaster.0141fc89853a1685fbb7.png",
-    "static/media/profilePic.jpg": "/portfolio/static/media/profilePic.868ce4aab1058732badf.jpg",
     "static/media/react-native.png": "/portfolio/static/media/react-native.90fb0021be64f2b1ce7e.png",
     "static/media/google-cloud.png": "/portfolio/static/media/google-cloud.fcf505213a8be4034c9f.png",
     "static/media/amazonec2.png": "/portfolio/static/media/amazonec2.4922a5cdd71c5beb5dda.png",
     "static/media/expo.svg": "/portfolio/static/media/expo.634a31deb0f0b2423f8cb73d8eaee03e.svg",
     "index.html": "/portfolio/index.html",
-    "main.b1643769.css.map": "/portfolio/static/css/main.b1643769.css.map",
-    "main.f3e9c602.js.map": "/portfolio/static/js/main.f3e9c602.js.map"
+    "main.a806769d.css.map": "/portfolio/static/css/main.a806769d.css.map",
+    "main.c516ee18.js.map": "/portfolio/static/js/main.c516ee18.js.map"
   },
   "entrypoints": [
-    "static/css/main.b1643769.css",
-    "static/js/main.f3e9c602.js"
+    "static/css/main.a806769d.css",
+    "static/js/main.c516ee18.js"
   ]
 }
