@@ -221,9 +221,10 @@ function App() {
                   <h3>Amazon EC2</h3>
                 </div>
               </div>
-              <h2 className='themed-header'>Take a Look at <strong className='reallyStrong'>MeetUp</strong></h2>
 
               <div className='projects h2' id='projects'>
+              <h2 className='themed-header'>Take a Look at <strong className='reallyStrong'>MeetUp</strong></h2>
+
                 <div className='project-container'>
                   <div className='project'>
                     <div className='column'>
