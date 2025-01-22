@@ -12,6 +12,7 @@ import js from './imgs/js.png';
 import githubBlack from './imgs/github-black.png';
 import sql from './imgs/sql.png';
 import react from './imgs/react.jpg';
+import chvenue from './imgs/chvenue.png';
 import mongodb from './imgs/mongodb.png';
 import meetupLandscape from './imgs/meetup-landscape.png';
 import nodejs from './imgs/nodejs.png';
@@ -119,7 +120,7 @@ function App() {
             now… 📍</p>
           <div className='column'>
             <div className='tech-stack'>
-              <h4>Main Tech Stack </h4>
+              <h4>Most Experience</h4>
               <ul className='tech-icons'>
                 <li><img src={html}></img><p>HTML5</p></li>
                 <li><img src={css}></img><p>CSS3</p></li>
@@ -132,7 +133,7 @@ function App() {
               </ul>
             </div>
             <div className='tech-stack'>
-              <h4>Have used before</h4>
+              <h4>Quite Comfortable</h4>
               <ul className='tech-icons'>
                 <li><img src={sql}></img><p>MySql</p></li>
                 <li><img src={googleplaces}></img><p>Google Places API</p></li>
@@ -257,6 +258,28 @@ function App() {
                   </div>
                   <h2 className='themed-header'>Other Projects</h2>
 
+                  <div className='project'>
+                    <div className='column'>
+                      <img onClick={handleClick} className='project-pic' src={chvenue}></img>
+                    </div>
+                    <div className='column c3'>
+                      <h6>CHVenue</h6>
+                      <p>Most recent practice. Used to practice Sass show off my current design skills. (Landing Page Only)</p>
+                      <ul className='project-techs'>
+                        <li>React</li>
+                        <li>NodeJs</li>
+                        <li>Sass</li>
+                      </ul>
+                      <ul className='project-techs c3'>
+                        <li>
+                          <a target='_blank' href="https://github.com/ndyarborough/yardland">Code<img src={github}></img></a>
+                        </li>
+                        <li>
+                          <a target='_blank' href='https://ndyarborough.github.io/yardland'>Live Demo<img src={newTab}></img></a>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
                  
                   <div className='project'>
                     <div className='column'>
