@@ -264,7 +264,7 @@ function App() {
                     </div>
                     <div className='column c3'>
                       <h6>CHVenue</h6>
-                      <p>Most recent practice. Used to practice Sass show off my current design skills. (Landing Page Only)</p>
+                      <p>Most recent mini-project. Used to practice Sass show off my current design skills. (Landing Page Only)</p>
                       <ul className='project-techs'>
                         <li>React</li>
                         <li>NodeJs</li>
