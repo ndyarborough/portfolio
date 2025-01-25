@@ -272,10 +272,10 @@ function App() {
                       </ul>
                       <ul className='project-techs c3'>
                         <li>
-                          <a target='_blank' href="https://github.com/ndyarborough/yardland">Code<img src={github}></img></a>
+                          <a target='_blank' href="https://github.com/ndyarborough/chvenue">Code<img src={github}></img></a>
                         </li>
                         <li>
-                          <a target='_blank' href='https://ndyarborough.github.io/yardland'>Live Demo<img src={newTab}></img></a>
+                          <a target='_blank' href='https://ndyarborough.github.io/chvenue'>Live Demo<img src={newTab}></img></a>
                         </li>
                       </ul>
                     </div>
