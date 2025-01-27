@@ -4,6 +4,10 @@
   --ubuntu-font: 'Ubuntu', sans-serif,
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 * {
   font-family: var(--ubuntu-font);
   font-weight: 700;
@@ -18,7 +22,47 @@ li {
 }
 
 .app {
-  flex: 1,
+  flex: 1;
+  position: relative;
+}
+
+.project-row {
+  display: flex;
+  flex-direction: row;
+}
+
+.project-row h3 {
+  margin: 0;
+}
+
+#home p {
+  margin-bottom: em;
+}
+
+.side-nav {
+  width: 15%;
+  height: 100%;
+  position: fixed;
+  left: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
+  padding: 0 1em
+}
+
+.side-nav .roww {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 1em
+}
+
+.side-nav .roww img {
+  width: 2em;
+}
+
+.botMarg {
+  margin-bottom: 4em;
 }
 
 .nav-menu {
@@ -39,6 +83,10 @@ main {
   position: fixed;
   background-color: white;
   top: 0
+}
+
+.column.ar {
+  padding-top: 3em;
 }
 
 div.column.c3 {
@@ -746,7 +794,7 @@ h3 {
   }
 
   .menu-icon {
-    display: block;
+    display: none;
   }
 }
 
@@ -758,6 +806,10 @@ h3 {
 }
 
 @media only screen and (max-width: 710px) {
+  .side-nav {
+    display: none;
+  }
+
   .meetup-tech {
     flex-direction: column;
     /* width: 50%; */
