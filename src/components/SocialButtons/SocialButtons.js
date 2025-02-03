@@ -1,4 +1,4 @@
-import githubBlack from '../../imgs/github-black.png';
+import githubBlack from '../../imgs/github_dark.png';
 import github from '../../imgs/github.png';
 import linkedIn from '../../imgs/linkedIn.png';
 import './SocialButtons.css';

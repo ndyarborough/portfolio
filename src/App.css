@@ -3,6 +3,8 @@
 
 :root {
   --ubuntu-font: 'Ubuntu', sans-serif;
+  --dark-color: #0f2027;
+  --light-color: #F4FFF8;
   --font-primary: "Oswald", serif;
   --primary-color: #0f2027;
   --secondary-color: #F4FFF8; 
@@ -128,7 +130,7 @@ h6, ul {
 
 @media only screen and (max-width: 640px) {
   body {
-    padding: 2em;
+    padding: 1em;
   }
   #main {
     width: 100%

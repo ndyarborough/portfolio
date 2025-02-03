@@ -1,12 +1,12 @@
 import { Link } from 'react-scroll';
 import aboutMe from '../../imgs/about-me.png';
-import aboutMeDark from '../../imgs/about-me-black.png';
+import aboutMeDark from '../../imgs/about_me_dark.png';
 import projects from '../../imgs/projects.png';
-import projectsDark from '../../imgs/projects-black.png';
+import projectsDark from '../../imgs/projects_dark.png';
 import techStack from '../../imgs/tech-stack.png';
-import techStackDark from '../../imgs/tech-stack-black.png';
+import techStackDark from '../../imgs/tech_stack_dark.png';
 import contact from '../../imgs/contact.png';
-import contactDark from '../../imgs/contact-black.png';
+import contactDark from '../../imgs/contact_dark.png';
 import './SideNav.css';
 
 const SideNav = ({ activeSection, activeStyle }) => {

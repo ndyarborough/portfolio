@@ -42,24 +42,28 @@
     all: unset;
     border: 1px solid var(--accent-color);
     border-radius: 10px;
+
     padding: .5em;
     text-align: center;
     font-family: var(--font-primary);
-}
-
-.light-mode .contact-form button {
     background-color: var(--secondary-color);
     color: var(--primary-color);
+    transition: scale .3s ease;
 }
 
+.contact-form button:hover {
+    background-color: var(--primary-color);
+    color: var(--secondary-color);
+}
+/* .light-mode .contact-form button {
+   
+} */
+
 @media only screen and (max-width: 768px) {
+    
     .contact ul {
         grid-template-columns: 1fr;
-    }
-
-
-    .contact ul li .social-buttons {
-        /* width: 100%; */
+        padding-bottom: 2em
     }
 
     .contact-form textarea {

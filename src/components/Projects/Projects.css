@@ -83,7 +83,7 @@
 
 .hover-button {
   background-color: var(--pop-color);
-  color: var(--secondary-color);
+  color: var(--dark-color);
   padding: .5em 1em;
   border-radius: 5px;
   text-decoration: none;
@@ -101,7 +101,7 @@
 
 .hover-button:hover {
   scale: 1.2;
-  color: var(--primary-color)
+  color: var(--light-color)
 }
 
 
