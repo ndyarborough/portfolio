@@ -1,0 +1,85 @@
+.tech-icons {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 1em;
+    max-width: fit-content;
+  }
+  
+  .tech-icons li {
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    background-color: var(--primary-color);
+    align-items: center;
+    padding: 0.5em 1em;
+    border-radius: 10px;
+    gap: 10px;
+    transition: background-color .3s ease, color .3s ease;
+  }
+
+  .tech-icons li:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+  }
+
+  .tech-icons li:hover:after,
+  .tech-icons li:hover:before {
+    content:'';
+    height: 100%;
+    width: 100%;
+    background-color: var(--pop-color);
+  }
+  
+  .tech-icons li:after,
+  .tech-icons li:before {
+    content: '';
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background-color: var(--accent-color);
+    top: 50%;
+    left: 50%;
+    translate: -50% -50%;
+    z-index: -1;
+    padding: 1px;
+    border-radius: 10px;
+  }
+
+  .light-mode .tech-icons li:after,
+  .light-mode .tech-icons li:before {
+    display: none;
+  }
+
+  .light-mode .tech-icons li  {
+    background-color: var(--secondary-color);
+    color: var(--primary-color);
+  }
+
+  .light-mode .tech-icons li:hover {
+    background-color: transparent;
+  }
+
+  .light-mode .tech-icons li:hover  {
+    background-color: var(--accent-color);
+    color: var(--primary-color)
+  }
+  
+  .tech-icons li::before {
+    filter: blur(.5rem);
+    opacity: .4;
+  }
+
+  .project-info .tech-icons {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    justify-self: center;
+    gap: 1em;
+    max-width: fit-content;
+  }
+  
+  .tech-icon-img {
+    width: 3em;
+    height: 3em;
+  }

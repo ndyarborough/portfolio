@@ -1,4 +1,4 @@
-import TechIcon from '../components/TechIcon';
+import TechIcon from './TechIcon/TechIcon';
 
 const TechStack = ({ title, items }) => {
     return (
