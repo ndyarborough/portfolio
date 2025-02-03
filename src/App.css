@@ -39,7 +39,7 @@ body {
   justify-content: center;
   padding: 3em;
   color: var(--secondary-color);
-  max-height: 100vh;
+  max-height: 100dvh;
 }
 
 a {
