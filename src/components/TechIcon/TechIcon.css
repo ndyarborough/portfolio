@@ -80,6 +80,6 @@
   }
   
   .tech-icon-img {
-    width: 3em;
-    height: 3em;
+    width: min(3dvh);
+    height: min(3dvh);
   }

@@ -4,7 +4,7 @@
 :root {
   --ubuntu-font: 'Ubuntu', sans-serif;
   --dark-color: #0f2027;
-  --light-color: #F4FFF8;
+  --light-color: #f4fff8;
   --font-primary: "Oswald", serif;
   --primary-color: #0f2027;
   --secondary-color: #F4FFF8; 
@@ -14,6 +14,7 @@
   --rainbow-linear-gradient: linear-gradient(to right, #ff4545, #00ff99, #006aff, #ff0095, #ff4545);
   --dark-to-light-gradient: linear-gradient(to right, var(--primary-color), var(--accent-color));
   --inner-glow: inset 0 0 0.5px 1px hsla(0, 0%, 100%, 0.075), /* shadow ring 👇 */ 0 0 0 1px hsla(0, 0%, 0%, 0.05), /* multiple soft shadows 👇 */ 0 0.3px 0.4px hsla(0, 0%, 0%, 0.02), 0 0.9px 1.5px hsla(0, 0%, 0%, 0.045), 0 3.5px 6px hsla(0, 0%, 0%, 0.09); 
+  --thick-shadow: 0px 8px 24px rgba(244, 255, 248, 0.4);
 }
 
 .light-mode {
@@ -22,6 +23,7 @@
   --accent-color: #8BAAAD;
   --pop-color: #279af1;
   --dark-to-light-gradient: linear-gradient(to right, var(--secondary-color), var(--accent-color));
+  --thick-shadow: 0px 8px 24px rgba(0, 0, 0, 0.25);
 }
 
 * {
@@ -85,6 +87,7 @@ h6, ul {
   margin-left: calc(15% + 1em);
   z-index: 1;
   box-shadow: var(--inner-glow);
+  position: relative;
 }
 
 #main::-webkit-scrollbar {
@@ -102,7 +105,9 @@ h6, ul {
 }
 
 .style-toggle {
-  float: right;
+  position: absolute;
+  top: 1em;
+  right: 1em;
   width: 2em;
   transition: scale .3s ease, filter .3s ease
 }

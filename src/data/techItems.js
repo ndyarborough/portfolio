@@ -20,6 +20,12 @@ import amazonEC2 from '../imgs/amazonec2.png';
 import amazonS3 from '../imgs/amazons3.jpg';
 import sass from '../imgs/sass.png';
 import firebase from '../imgs/firebase.png';
+import redis from '../imgs/redis.png';
+import prisma from '../imgs/prisma.png';
+import nextjs from '../imgs/nextjs.png';
+import nestjs from '../imgs/nestjs.png';
+import typeScript from '../imgs/typescript.png';
+import tailwind from '../imgs/tailwind.png';
 
 export const mostExperience = [
     { src: aws, name: 'Amazon Web Services', className: 'special' },
@@ -35,18 +41,17 @@ export const mostExperience = [
     { src: python, name: 'Python' },
     { src: ticketmaster, name: 'Tickemaster API', className: 'lilRight' },
     { src: java, name: 'Java' },
-    { src: c, name: 'C' },
-    { src: cplusplus, name: 'C++' },
     { src: csharp, name: 'C#' },
   ];
 
   export const meetup = [
-    { src: react, name: 'React Native' },
-    { src: express, name: 'Express' },
-    { src: mongodb, name: 'MongoDB' },
-    { src: amazonS3, name: 'Amazon S3' },
-    { src: amazonEC2, name: 'Amazon EC2' },
-    { src: nodejs, name: 'Node.js'},
+    { src: react, name: 'React' },
+    { src: typeScript, name: 'TypeScript' },
+    { src: tailwind, name: 'Tailwind CSS' },
+    { src: prisma, name: 'Prisma' },
+    { src: redis, name: 'Redis' },
+    { src: nextjs, name: 'Next.js' },
+    { src: nestjs, name: 'Nest.js'},
   ];
 
   export const chvenue = [
@@ -73,6 +78,5 @@ export const mostExperience = [
     {src: express, name: 'Express.js' },
     {src: react, name: 'React.js' },
     {src: nodejs, name: 'Node.js' },
-    { src: sass, name: 'Sass'},
   ]
   
