@@ -5,8 +5,6 @@ import js from '../imgs/js.png';
 import nodejs from '../imgs/nodejs.png';
 import python from '../imgs/python.png';
 import javascript from '../imgs/js.png';
-import c from '../imgs/c.png';
-import cplusplus from '../imgs/cplusplus.png';
 import csharp from '../imgs/csharp.png';
 import aws from '../imgs/aws.png';
 import mongodb from '../imgs/mongodb.png';
@@ -41,6 +39,8 @@ export const mostExperience = [
     { src: python, name: 'Python' },
     { src: ticketmaster, name: 'Tickemaster API', className: 'lilRight' },
     { src: java, name: 'Java' },
+    { src: amazonEC2, name: 'Amazon EC2' },
+    { src: amazonS3, name: 'Amazon S3' },
     { src: csharp, name: 'C#' },
   ];
 
