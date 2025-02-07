@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.9a949a43.css",
-    "main.js": "/portfolio/static/js/main.87222f25.js",
+    "main.css": "/portfolio/static/css/main.40a0e16a.css",
+    "main.js": "/portfolio/static/js/main.ab928e3e.js",
     "static/media/yardland.png": "/portfolio/static/media/yardland.f006ba3c478bd2e1959e.png",
     "static/media/chvenue.png": "/portfolio/static/media/chvenue.09f25a359d4acbb5ea56.png",
     "static/media/eventsherenow.png": "/portfolio/static/media/eventsherenow.b36b7e6cad915263adc6.png",
@@ -12,11 +12,11 @@
     "index.html": "/portfolio/index.html",
     "static/media/light_mode.svg": "/portfolio/static/media/light_mode.2b372ac8206de84efbf9b7ed364d3224.svg",
     "static/media/dark_mode.svg": "/portfolio/static/media/dark_mode.01e52ff13eeb9118434b8d1f94d7fa12.svg",
-    "main.9a949a43.css.map": "/portfolio/static/css/main.9a949a43.css.map",
-    "main.87222f25.js.map": "/portfolio/static/js/main.87222f25.js.map"
+    "main.40a0e16a.css.map": "/portfolio/static/css/main.40a0e16a.css.map",
+    "main.ab928e3e.js.map": "/portfolio/static/js/main.ab928e3e.js.map"
   },
   "entrypoints": [
-    "static/css/main.9a949a43.css",
-    "static/js/main.87222f25.js"
+    "static/css/main.40a0e16a.css",
+    "static/js/main.ab928e3e.js"
   ]
 }
