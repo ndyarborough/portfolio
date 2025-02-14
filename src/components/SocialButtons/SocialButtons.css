@@ -3,6 +3,7 @@
     flex-direction: row;
     justify-content: center;
     gap: 1em;
+    padding-top: 2em
   }
   
   .social-buttons .social-button {
