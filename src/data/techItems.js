@@ -45,13 +45,11 @@ export const mostExperience = [
   ];
 
   export const meetup = [
-    { src: react, name: 'React' },
-    { src: typeScript, name: 'TypeScript' },
-    { src: tailwind, name: 'Tailwind CSS' },
-    { src: prisma, name: 'Prisma' },
-    { src: redis, name: 'Redis' },
-    { src: nextjs, name: 'Next.js' },
-    { src: nestjs, name: 'Nest.js'},
+    { src: react, name: 'React Native' },
+    { src: mongodb, name: 'MongoDB' },
+    { src: express, name: 'Express.js'},
+    { src: nodejs, name: 'Node.js'},
+
   ];
 
   export const chvenue = [

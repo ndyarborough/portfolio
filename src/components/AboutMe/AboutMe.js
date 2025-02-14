@@ -5,7 +5,7 @@ import './AboutMe.css';
 
 const AboutMe = ({ activeStyle }) => {
     return (
-        <div className='aboutMe'>
+        <div className='aboutMe' id='about-me'>
             <div className='info'>
                 <h1>
                     <TypeAnimation

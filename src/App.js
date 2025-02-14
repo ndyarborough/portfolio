@@ -12,7 +12,7 @@ import './App.css';
 const App = () => {
   const [activeSection, setActiveSection] = useState('main');
   const [activeStyle, setActiveStyle] = useState(() => {
-    return localStorage.getItem('theme') || 'light';
+    return localStorage.getItem('theme') || 'dark';
   });
 
   useEffect(() => {
@@ -62,6 +62,10 @@ const App = () => {
           alt="Theme Toggle"
         />
         <AboutMe activeStyle={activeStyle} />
+        <section id="projects">
+          <h2 className="themed-header">Projects</h2>
+          <Projects />
+        </section>
         <section id="tech-stack">
           <h2 className="themed-header">Skills</h2>
           <div id="mainSkills">
@@ -69,10 +73,6 @@ const App = () => {
             <TechStack title="5+ Years" items={mostExperience} />
             <TechStack title="2+ years" items={quiteComfortable} />
           </div>
-        </section>
-        <section id="projects">
-          <h2 className="themed-header">Projects</h2>
-          <Projects />
         </section>
         <section id="contact">
           <h2 className="themed-header">Contact</h2>

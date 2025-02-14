@@ -11,9 +11,9 @@ import './SideNav.css';
 
 const SideNav = ({ activeSection, activeStyle }) => {
   const sections = [
-    { id: 'main', light: aboutMe, dark: aboutMeDark, label: 'About Me' },
-    { id: 'tech-stack', light: techStack, dark: techStackDark, label: 'Skills' },
+    { id: 'about-me', light: aboutMe, dark: aboutMeDark, label: 'About Me' },
     { id: 'projects', light: projects, dark: projectsDark, label: 'Projects' },
+    { id: 'tech-stack', light: techStack, dark: techStackDark, label: 'Skills' },
     { id: 'contact', light: contact, dark: contactDark, label: 'Contact' },
   ];
 
