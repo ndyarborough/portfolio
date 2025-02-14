@@ -1,17 +1,23 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.7a086ef7.css",
-    "main.js": "/portfolio/static/js/main.2d58722d.js",
+    "main.css": "/portfolio/static/css/main.31b6d431.css",
+    "main.js": "/portfolio/static/js/main.60848a63.js",
+    "static/media/yardland.png": "/portfolio/static/media/yardland.f006ba3c478bd2e1959e.png",
+    "static/media/chvenue.png": "/portfolio/static/media/chvenue.09f25a359d4acbb5ea56.png",
     "static/media/eventsherenow.png": "/portfolio/static/media/eventsherenow.b36b7e6cad915263adc6.png",
-    "static/media/yardland.png": "/portfolio/static/media/yardland.364b2ef5e0fa57419b09.png",
-    "static/media/setup.jpg": "/portfolio/static/media/setup.800c7dd3cc2103bf4969.jpg",
-    "static/media/profilePic.jpg": "/portfolio/static/media/profilePic.eb6ac84225db0d0af81b.jpg",
+    "static/media/meetup-landscape.png": "/portfolio/static/media/meetup-landscape.235f20492cfd6c57996c.png",
+    "static/media/profilePic.jpg": "/portfolio/static/media/profilePic.ee9d0c399713a1580310.jpg",
+    "static/media/ticketmaster.png": "/portfolio/static/media/ticketmaster.0141fc89853a1685fbb7.png",
+    "static/media/amazonec2.png": "/portfolio/static/media/amazonec2.4922a5cdd71c5beb5dda.png",
+    "static/media/wave.png": "/portfolio/static/media/wave.92f45773314835b3c836.png",
     "index.html": "/portfolio/index.html",
-    "main.7a086ef7.css.map": "/portfolio/static/css/main.7a086ef7.css.map",
-    "main.2d58722d.js.map": "/portfolio/static/js/main.2d58722d.js.map"
+    "static/media/light_mode.svg": "/portfolio/static/media/light_mode.2b372ac8206de84efbf9b7ed364d3224.svg",
+    "static/media/dark_mode.svg": "/portfolio/static/media/dark_mode.01e52ff13eeb9118434b8d1f94d7fa12.svg",
+    "main.31b6d431.css.map": "/portfolio/static/css/main.31b6d431.css.map",
+    "main.60848a63.js.map": "/portfolio/static/js/main.60848a63.js.map"
   },
   "entrypoints": [
-    "static/css/main.7a086ef7.css",
-    "static/js/main.2d58722d.js"
+    "static/css/main.31b6d431.css",
+    "static/js/main.60848a63.js"
   ]
 }
