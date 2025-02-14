@@ -15,6 +15,7 @@ const Project = ({ image, title, description, techs, codeLink, liveLink, handleC
           <a
             target="_blank"
             href={codeLink}
+            rel="noreferrer"
             className="hover-button"
           >
             View Source Code
@@ -23,6 +24,7 @@ const Project = ({ image, title, description, techs, codeLink, liveLink, handleC
             target="_blank"
             href={liveLink}
             className="hover-button"
+            rel="noreferrer"
           >
             Live Demo
           </a>

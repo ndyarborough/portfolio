@@ -18,12 +18,8 @@ import amazonEC2 from '../imgs/amazonec2.png';
 import amazonS3 from '../imgs/amazons3.jpg';
 import sass from '../imgs/sass.png';
 import firebase from '../imgs/firebase.png';
-import redis from '../imgs/redis.png';
-import prisma from '../imgs/prisma.png';
-import nextjs from '../imgs/nextjs.png';
-import nestjs from '../imgs/nestjs.png';
-import typeScript from '../imgs/typescript.png';
-import tailwind from '../imgs/tailwind.png';
+import typescript from '../imgs/typescript.png';
+import postgres from '../imgs/postgres.png';
 
 export const mostExperience = [
     { src: aws, name: 'Amazon Web Services', className: 'special' },
@@ -72,9 +68,10 @@ export const mostExperience = [
   ]
 
   export const mainStack = [
-    {src: mongodb, name: 'MongoDB' },
-    {src: express, name: 'Express.js' },
-    {src: react, name: 'React.js' },
     {src: nodejs, name: 'Node.js' },
+    {src: react, name: 'React.js' },
+    {src: typescript, name: 'TypeScript' },
+    {src: express, name: 'Express.js' },
+    {src: postgres, name: 'postgreSQL' },
   ]
   
