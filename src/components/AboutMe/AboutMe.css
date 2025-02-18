@@ -1,6 +1,6 @@
 .aboutMe {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   justify-content: space-between;
   align-items: center;
   gap: 3em;
@@ -117,16 +117,19 @@ strong {
 
 
 
-@media only screen and (min-width: 800px) {
+@media only screen and (max-width: 1000px) {
   .aboutMe {
-    flex-direction: row;
+    flex-direction: column;
+    padding-left: 1em;
+    padding-right: 1em;
   }
 }
 
-@media only screen and (max-width: 420px) {
+@media only screen and (max-width: 620px) {
   .name-header {
     font-size: 2em;
   }
+
 
   .info h2, .info .row h2 {
     font-size: 1em;

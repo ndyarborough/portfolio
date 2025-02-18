@@ -1,33 +1,27 @@
 import TechStack from './TechStack';
 
-const Project = ({ image, title, description, techs, codeLink, liveLink, handleClick }) => (
+const Project = ({ images, title, description, techs, codeLink, liveLink, handleClick }) => (
   <div className="project">
-    <div className="project-pic-container">
-      <img
-        onClick={handleClick}
-        className="project-pic"
-        src={image}
-        alt={title}
-      />
+    <div className="project-pic-container" style={{ "--image-count": images.length }}>
+      {images.map((imgSrc, index) => (
+        <img
+          key={index}
+          onClick={handleClick}
+          className="project-pic"
+          src={imgSrc}
+          alt={`${title} ${index + 1}`}
+        />
+      ))}
+
       {/* Hover container with buttons */}
-      <div className="hover-container">
-        <a
-          target="_blank"
-          href={codeLink}
-          rel="noreferrer"
-          className="hover-button"
-        >
+      {/* <div className="hover-container">
+        <a target="_blank" href={codeLink} rel="noreferrer" className="hover-button">
           View Code
         </a>
-        <a
-          target="_blank"
-          href={liveLink}
-          className="hover-button"
-          rel="noreferrer"
-        >
+        <a target="_blank" href={liveLink} className="hover-button" rel="noreferrer">
           Live Demo
         </a>
-      </div>
+      </div> */}
     </div>
 
     <div className="project-info">
