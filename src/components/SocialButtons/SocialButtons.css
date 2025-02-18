@@ -17,6 +17,7 @@
     font-size: 2em;
     font-family: var(--font-primary);
     transition: transform 0.3s ease-in-out;
+    width: fit-content;
     background-color: var(--primary-color);
     box-shadow: var(--inner-glow);
     position: relative;

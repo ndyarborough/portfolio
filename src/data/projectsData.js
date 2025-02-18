@@ -16,20 +16,20 @@ export const projectsData = [
         liveLink: "https://ndyarborough.github.io/chvenue"
     },
     {
-        image: meetupLandscape,
-        title: "MeetUp",
-        description: "Full-Stack social media application created to show my ability to combine frontend and backend.",
-        techs: meetup,
-        codeLink: "https://github.com/ndyarborough/Meetup_2.0",
-        liveLink: "http://meetup-ndyarborough.s3-website.us-east-2.amazonaws.com/"
-    },
-    {
         image: crbc,
         title: "CRBC",
         description: "An informational site for a local church.",
         techs: CRBC,
         codeLink: "https://github.com/ndyarborough/crbc",
         liveLink: "https://ndyarborough.github.io/crbc"
+    },
+    {
+        image: meetupLandscape,
+        title: "MeetUp",
+        description: "Full-Stack social media application created to show my ability to combine frontend and backend.",
+        techs: meetup,
+        codeLink: "https://github.com/ndyarborough/Meetup_2.0",
+        liveLink: "http://meetup-ndyarborough.s3-website.us-east-2.amazonaws.com/"
     },
     {
         image: yardland,

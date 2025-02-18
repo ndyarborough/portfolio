@@ -1,4 +1,3 @@
-import { TypeAnimation } from 'react-type-animation';
 import profilePic from '../../imgs/profilePic.jpg';
 import Pin from '../../imgs/pin.png';
 import './AboutMe.css';

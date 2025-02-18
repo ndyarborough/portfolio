@@ -21,6 +21,8 @@ import postgres from '../imgs/postgres.png';
 import next from '../imgs/nextjs.png';
 import nest from '../imgs/nestjs.png';
 import prisma from '../imgs/prisma.png';
+import wordpress from '../imgs/wordpress.png';
+import youtube from '../imgs/youtube.png';
 
 export const mostExperience = [
   { src: react, name: 'React.js' },
@@ -70,6 +72,8 @@ export const yardland = [
 ]
 
 export const CRBC = [
+  { src: wordpress, name: 'Wordpress CMS' },
+  { src: youtube, name: 'Youtube Data API' },
   { src: react, name: 'React.js' },
   { src: nodejs, name: 'Node.js' },
   { src: css, name: 'CSS' },

@@ -58,6 +58,10 @@ p, h2 {
   margin: 0;
 }
 
+.aboutMe p {
+  animation: appearLeft 1s;
+}
+
 .aboutMe p:first-of-type {
   margin-top: 1em;
 }
@@ -90,7 +94,7 @@ strong {
   position: absolute;
   border-radius: 50%;
   z-index: -1;
-  background: var(--rainbow-cone-gradinet);
+  background: var(--accent-color);
 }
 
 .pic::before, .pic:after {
@@ -100,15 +104,8 @@ strong {
   top: 50%;
   left: 50%;
   translate: -50% -50%;
-  opacity: 0;
-}
-
-
-.pic::before:hover,
-.pic:after:hover {
   opacity: 1;
 }
-
 
 .profilePic {
   width: clamp(15em, 20vw, 25em);

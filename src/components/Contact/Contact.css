@@ -10,10 +10,12 @@
     grid-template-rows: repeat(2, auto); /* 2 rows, automatic height */
     gap: min(8em, 5%); /* Maintain spacing */
     align-items: start;
+    padding: 2em 0;
 }
 
 .contact h3 {
     font-size: 1.25em;
+    margin: 0;
 }
 
 .contact .social-buttons {
@@ -75,6 +77,65 @@
 /* .light-mode .contact-form button {
    
 } */
+
+.copy-text {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 1em;
+    border-radius: 10px;
+    box-shadow: var(--inner-glow);
+    padding: .5em;
+}
+
+span.copy-btn {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.copy-text img {
+    width: 1.2em;
+}
+
+@keyframes toastAnimation {
+    0% {
+        transform: translate(-50%, 100%);
+        opacity: 0;
+    }
+    10% {
+        transform: translate(-50%, 0);
+        opacity: 1;
+    }
+    80% {
+        transform: translate(-50%, 0);
+        opacity: 1;
+    }
+    100% {
+        transform: translate(-50%, 100%);
+        opacity: 0;
+    }
+}
+
+.toast {
+    position: fixed;
+    bottom: 50px;
+    left: 50%;
+    background-color: black;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 14px;
+    font-weight: bold;
+    opacity: 0;
+    transform: translate(-50%, 100%);
+}
+
+.toast.show {
+    animation: toastAnimation 2.5s ease-in-out forwards;
+}
 
 @media only screen and (max-width: 900px) {
     

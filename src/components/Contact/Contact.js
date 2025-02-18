@@ -3,9 +3,11 @@ import emailjs from "@emailjs/browser";
 import SocialButtons from "../SocialButtons/SocialButtons";
 import LightMail from '../../imgs/mail.png';
 import DarkMail from '../../imgs/mail-dark.png';
+import copy from '../../imgs/copy.png';
+import copyDark from '../../imgs/copy-dark.png';
 import "./Contact.css";
 
-const Contact = ({activeStyle}) => {
+const Contact = ({ activeStyle }) => {
     const [formData, setFormData] = useState({
         name: "",
         email: "",
@@ -13,6 +15,7 @@ const Contact = ({activeStyle}) => {
     });
 
     const [status, setStatus] = useState("");
+    const [copied, setCopied] = useState(false);
 
     const handleChange = (e) => {
         setFormData({ ...formData, [e.target.name]: e.target.value });
@@ -20,20 +23,15 @@ const Contact = ({activeStyle}) => {
 
     const handleSubmit = (e) => {
         e.preventDefault();
-    
+
         const templateParams = {
-            email: formData.email,  // Matches {{email}} in the template (email-js)
-            name: formData.name,    // Matches {{name}} in the template (email-js)
-            message: formData.message  // Matches {{message}} in the template (email-js)
+            email: formData.email,
+            name: formData.name,
+            message: formData.message,
         };
-    
+
         emailjs
-            .send(
-                "service_t2129bb", 
-                "template_2bh5pqh", 
-                templateParams, 
-                "BFIzVOuHKS6J3Pwyj"
-            )
+            .send("service_t2129bb", "template_2bh5pqh", templateParams, "BFIzVOuHKS6J3Pwyj")
             .then(
                 (response) => {
                     setStatus("Message sent successfully!");
@@ -45,7 +43,15 @@ const Contact = ({activeStyle}) => {
                 }
             );
     };
-    
+
+    const email = "noahdyarborough@gmail.com";
+
+    const handleCopy = () => {
+        navigator.clipboard.writeText(email).then(() => {
+            setCopied(true);
+            setTimeout(() => setCopied(false), 2000); // Remove after 2s
+        }).catch(err => console.error("Failed to copy email:", err));
+    };
 
     return (
         <div className="contact" id="contact">
@@ -55,12 +61,23 @@ const Contact = ({activeStyle}) => {
                     <SocialButtons activeStyle={activeStyle} />
                 </li>
                 <li>
-                    <h3>Get in touch</h3>
-                    <div class='row'>
-                        <img src={activeStyle === 'dark' ? LightMail : DarkMail} alt='Mail Icon'/>
-                        <p>noahdyarborough@gmail.com</p>
+                    <h3>Email</h3>
+                    <div className="row">
+                        <p onClick={handleCopy} className="copy-text">
+                           
+                            <span className="copy-btn">
+                                <img src={activeStyle === 'dark' ? copy : copyDark} alt="copy icon" />
+                            </span>
+                            {email}
+                        </p>
                     </div>
-                    {/* <form onSubmit={handleSubmit} className="contact-form">
+                </li>
+            </ul>
+
+            {/* Toast Notification */}
+            {copied && <div className="toast show">Copied to clipboard!</div>}
+
+            {/* <form onSubmit={handleSubmit} className="contact-form">
                         <input
                             type="text"
                             name="name"
@@ -87,8 +104,6 @@ const Contact = ({activeStyle}) => {
                         <button type="submit">Send Message</button>
                         {status && <p className="status-message">{status}</p>}
                     </form> */}
-                </li>
-            </ul>
         </div>
     );
 };

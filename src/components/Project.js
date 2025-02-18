@@ -17,7 +17,7 @@ const Project = ({ image, title, description, techs, codeLink, liveLink, handleC
           rel="noreferrer"
           className="hover-button"
         >
-          View Source Code
+          View Code
         </a>
         <a
           target="_blank"
