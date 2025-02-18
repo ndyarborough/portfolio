@@ -33,7 +33,7 @@
     left: 50%;
     translate: -50% -50%; 
     border-radius: 10px;
-    padding: 2px;
+    padding: 1px;
     opacity: 0;
     z-index: -1;
   }

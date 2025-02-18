@@ -13,15 +13,15 @@ const Project = ({ images, title, description, techs, codeLink, liveLink, handle
         />
       ))}
 
-      {/* Hover container with buttons */}
-      {/* <div className="hover-container">
+      {/* Hover container over the entire image grid */}
+      <div className="hover-container">
         <a target="_blank" href={codeLink} rel="noreferrer" className="hover-button">
           View Code
         </a>
         <a target="_blank" href={liveLink} className="hover-button" rel="noreferrer">
           Live Demo
         </a>
-      </div> */}
+      </div>
     </div>
 
     <div className="project-info">

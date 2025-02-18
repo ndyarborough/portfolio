@@ -64,7 +64,6 @@ const Contact = ({ activeStyle }) => {
                     <h3>Email</h3>
                     <div className="row">
                         <p onClick={handleCopy} className="copy-text">
-                           
                             <span className="copy-btn">
                                 <img src={activeStyle === 'dark' ? copy : copyDark} alt="copy icon" />
                             </span>

@@ -12,7 +12,7 @@ import './App.css';
 const App = () => {
   const [activeSection, setActiveSection] = useState('about-me');
   const [activeStyle, setActiveStyle] = useState(() => {
-    return localStorage.getItem('theme') || 'light';
+    return localStorage.getItem('theme') || 'dark';
   });
 
   useEffect(() => {
