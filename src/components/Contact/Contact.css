@@ -1,3 +1,9 @@
+#contact {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
 .contact ul {
     display: grid;
     grid-template-columns: repeat(2, 1fr); /* 2 columns */
@@ -12,7 +18,19 @@
 
 .contact .social-buttons {
     flex-direction: column;
-    width: fit-content;
+}
+
+.contact ul li .row {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 1em;
+}
+
+.contact ul li .row {
+    padding-top: 1.35em;
+    font-weight: 600;
+    font-size: 1.5em;
 }
 
 .contact-form {
@@ -42,7 +60,6 @@
     all: unset;
     border: 1px solid var(--accent-color);
     border-radius: 10px;
-
     padding: .5em;
     text-align: center;
     font-family: var(--font-primary);
@@ -59,7 +76,7 @@
    
 } */
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 900px) {
     
     .contact ul {
         grid-template-columns: 1fr;
@@ -68,5 +85,18 @@
 
     .contact-form textarea {
         min-height: 15dvh;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    .contact ul li .row {
+        gap: 0.5em;
+    }
+    ul li .row p {
+        font-size: .65em;
+        text-wrap: wrap;
+    }
+    ul li .row img {
+        width: 1.5em
     }
 }

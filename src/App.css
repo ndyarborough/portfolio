@@ -44,6 +44,10 @@ body {
   max-height: 100dvh;
 }
 
+.app section {
+  min-height: 50vh;
+}
+
 a {
   cursor: pointer;  
   color: var(--secondary-color);
@@ -64,9 +68,12 @@ h6, ul {
 }
 
 .themed-header {
-  font-family: "Oswald", serif;
+  /* font-family: "Oswald", serif; */
   font-size: (1.7vw + 2px);
+  font-weight: 500;
   color: var(--secondary-color);
+  border-bottom: 1px solid var(--secondary-color);
+  width: fit-content;
 }
 
 .app {
@@ -88,6 +95,7 @@ h6, ul {
   z-index: 1;
   box-shadow: var(--inner-glow);
   position: relative;
+  max-width: 1200px;
 }
 
 #main::-webkit-scrollbar {
@@ -106,10 +114,10 @@ h6, ul {
 
 .style-toggle {
   position: absolute;
-  top: 1em;
-  right: 1em;
-  width: 2em;
-  transition: scale .3s ease, filter .3s ease
+  top: 2em;
+  right: 2em;
+  width: 2.5em;
+  transition: scale .3s ease, filter .3s ease;
 }
 
 .style-toggle:hover {

@@ -2,7 +2,9 @@ import meetupLandscape from '../imgs/meetup-landscape.png';
 import eventsherenow from '../imgs/eventsherenow.png';
 import yardland from '../imgs/yardland.png';
 import chvenue from '../imgs/chvenue.png';
-import { meetup, chvenue as chvenueTech, EventsHereNow, yardland as yardlandTech } from '../data/techItems'; // Import tech stacks
+import crbc from '../imgs/crbc.png';
+
+import { meetup, chvenue as chvenueTech, EventsHereNow, yardland as yardlandTech, CRBC } from '../data/techItems'; // Import tech stacks
 
 export const projectsData = [
     {
@@ -22,6 +24,14 @@ export const projectsData = [
         liveLink: "http://meetup-ndyarborough.s3-website.us-east-2.amazonaws.com/"
     },
     {
+        image: crbc,
+        title: "CRBC",
+        description: "An informational site for a local church.",
+        techs: CRBC,
+        codeLink: "https://github.com/ndyarborough/crbc",
+        liveLink: "https://ndyarborough.github.io/crbc"
+    },
+    {
         image: yardland,
         title: "YardLand 🪴",
         description: "A small, but functional website for a landscaping business.",
@@ -37,4 +47,5 @@ export const projectsData = [
         codeLink: "https://github.com/ndyarborough/Events-Here-Now",
         liveLink: "https://ndyarborough.github.io/Events-Here-Now/index.html"
     },
+   
 ];

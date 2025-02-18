@@ -4,7 +4,6 @@ import linkedIn from '../../imgs/linkedIn.png';
 import './SocialButtons.css';
 
 const SocialButtons = ({ activeStyle }) => {
-  console.log('activeStyle: ', activeStyle)
   const socialLinks = [
     { 
       href: "https://www.linkedin.com/in/noah-yarborough/", 

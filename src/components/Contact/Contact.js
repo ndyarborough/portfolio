@@ -1,6 +1,8 @@
 import { useState } from "react";
 import emailjs from "@emailjs/browser";
 import SocialButtons from "../SocialButtons/SocialButtons";
+import LightMail from '../../imgs/mail.png';
+import DarkMail from '../../imgs/mail-dark.png';
 import "./Contact.css";
 
 const Contact = ({activeStyle}) => {
@@ -54,7 +56,11 @@ const Contact = ({activeStyle}) => {
                 </li>
                 <li>
                     <h3>Get in touch</h3>
-                    <form onSubmit={handleSubmit} className="contact-form">
+                    <div class='row'>
+                        <img src={activeStyle === 'dark' ? LightMail : DarkMail} alt='Mail Icon'/>
+                        <p>noahdyarborough@gmail.com</p>
+                    </div>
+                    {/* <form onSubmit={handleSubmit} className="contact-form">
                         <input
                             type="text"
                             name="name"
@@ -80,7 +86,7 @@ const Contact = ({activeStyle}) => {
                         />
                         <button type="submit">Send Message</button>
                         {status && <p className="status-message">{status}</p>}
-                    </form>
+                    </form> */}
                 </li>
             </ul>
         </div>
