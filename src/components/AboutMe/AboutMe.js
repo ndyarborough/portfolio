@@ -18,11 +18,7 @@ const AboutMe = ({ activeStyle }) => {
                     </div>
 
                 </div>
-                <p>Recently using TypeScript with Next.js and Postgres with Prisma.</p>
-
-                <p>Spent 5 years in the MERN stack (MongoDB, Express.js, React.js, Node.js).</p>
-
-                <p>Strong CSS/Tailwind/Sass skills</p>
+                <p>Full Stack Developer specializing in scalable React and TypeScript applications, with strong backend experience in Node.js and cloud-native solutions. Skilled at solving complex problems, building maintainable codebases, and driving projects from concept to production. Seeking a full-time role to leverage and grow technical expertise.</p>
             </div>
             <div className='pic'>
                 <img className='profilePic' src={profilePic} alt="Profile" />
