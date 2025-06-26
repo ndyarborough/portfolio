@@ -18,7 +18,9 @@ const AboutMe = ({ activeStyle }) => {
                     </div>
 
                 </div>
-                <p>Full Stack Developer specializing in scalable React and TypeScript applications, with strong backend experience in Node.js and cloud-native solutions. Skilled at solving complex problems, building maintainable codebases, and driving projects from concept to production. Seeking a full-time role to leverage and grow technical expertise.</p>
+                <p>Full Stack Developer specializing in scalable React and TypeScript applications, with strong backend experience in Node.js and cloud-native solutions.</p>
+                <p>Skilled at solving complex problems, building maintainable codebases, and driving projects from concept to production.</p>
+                <p>Seeking a full-time role to leverage and grow technical expertise.</p>
             </div>
             <div className='pic'>
                 <img className='profilePic' src={profilePic} alt="Profile" />
