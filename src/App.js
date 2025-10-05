@@ -2,11 +2,13 @@ import { useEffect, useState } from 'react';
 import SideNav from './components/SideNav/SideNav.js';
 import TechStack from './components/TechStack';
 import AboutMe from './components/AboutMe/AboutMe.js';
+import Experience from './components/Experience';
 import Projects from './components/Projects';
 import Contact from './components/Contact';
 import lightMode from './imgs/light_mode.svg';
 import darkMode from './imgs/dark_mode.svg';
 import { mainStack, mostExperience, quiteComfortable } from './data/techItems.js';
+import { experienceData } from './data/experienceData.js';
 import './App.css';
 
 const App = () => {
@@ -18,7 +20,7 @@ const App = () => {
   useEffect(() => {
     const mainElement = document.getElementById("main");
     const handleScroll = () => {
-      const sections = ['about-me', 'tech-stack', 'projects', 'contact'];
+      const sections = ['about-me', 'experience', 'tech-stack', 'projects', 'contact'];
       let currentSection = '';
       sections.forEach((section) => {
         const element = document.getElementById(section);
@@ -62,6 +64,10 @@ const App = () => {
         />
         <section>
           <AboutMe activeStyle={activeStyle} />
+        </section>
+        <section id="experience">
+          <h2 className="themed-header">EXPERIENCE</h2>
+          <Experience experiences={experienceData} />
         </section>
         <section id="projects">
           <h2 className="themed-header">PROJECTS</h2>

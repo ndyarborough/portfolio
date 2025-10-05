@@ -18,9 +18,11 @@ const Project = ({ images, title, description, techs, codeLink, liveLink, handle
         <a target="_blank" href={codeLink} rel="noreferrer" className="hover-button">
           View Code
         </a>
-        <a target="_blank" href={liveLink} className="hover-button" rel="noreferrer">
-          Live Demo
-        </a>
+        {liveLink && (
+          <a target="_blank" href={liveLink} className="hover-button" rel="noreferrer">
+            Live Demo
+          </a>
+        )}
       </div>
     </div>
 

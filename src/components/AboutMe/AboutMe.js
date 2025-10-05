@@ -19,7 +19,8 @@ const AboutMe = ({ activeStyle }) => {
 
                 </div>
                 <p>Full Stack Developer specializing in scalable React and TypeScript applications, with strong backend experience in Node.js and cloud-native solutions.</p>
-                <p>Skilled at solving complex problems, building maintainable codebases, and driving projects from concept to production.</p>
+                <p>Skilled at solving complex problems, building maintainable codebases, and driving projects from concept to production with speed and precision.</p>
+                <p>Stay current with the latest AI models and their use cases, optimizing for cost-efficiency while delivering innovative solutions.</p>
                 <p>Seeking a full-time role to leverage and grow technical expertise.</p>
             </div>
             <div className='pic'>

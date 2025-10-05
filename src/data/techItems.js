@@ -17,12 +17,12 @@ import amazonS3 from '../imgs/amazons3.jpg';
 import sass from '../imgs/sass.png';
 import firebase from '../imgs/firebase.png';
 import typescript from '../imgs/typescript.png';
-import postgres from '../imgs/postgres.png';
-import next from '../imgs/nextjs.png';
-import nest from '../imgs/nestjs.png';
-import prisma from '../imgs/prisma.png';
 import wordpress from '../imgs/wordpress.png';
 import youtube from '../imgs/youtube.png';
+import tailwind from '../imgs/tailwind.png';
+// TODO: Add these images to /src/imgs/
+import gcp from '../imgs/gcp.png';
+import gemini from '../imgs/gemini.png';
 
 export const mostExperience = [
   { src: react, name: 'React.js' },
@@ -80,10 +80,10 @@ export const CRBC = [
 ]
 
 export const mainStack = [
+  { src: react, name: 'React.js' },
   { src: typescript, name: 'TypeScript' },
-  { src: nodejs, name: 'Node.js' },
-  { src: next, name: 'Next.js' },
-  { src: nest, name: 'Nest.js' },
-  { src: postgres, name: 'postgreSQL' },
-  { src: prisma, name: 'Prisma' }
+  { src: tailwind, name: 'Tailwind CSS' },
+  { src: gcp, name: 'GCP' }, // TODO: Replace with actual GCP logo
+  { src: gemini, name: 'Gemini' },
+  // TODO: Add Gemini - need gemini.png
 ]

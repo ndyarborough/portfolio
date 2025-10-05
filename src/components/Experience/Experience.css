@@ -1,0 +1,102 @@
+.experience-container {
+    display: flex;
+    flex-direction: column;
+    gap: 2.5em;
+}
+
+.experience-item {
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+    padding: 1.5em 0;
+    border-bottom: 1px solid var(--accent-color);
+}
+
+.experience-item:last-child {
+    border-bottom: none;
+}
+
+.experience-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 1em;
+}
+
+.experience-header-left {
+    display: flex;
+    align-items: center;
+    gap: 1em;
+}
+
+.company-logo {
+    width: 3em;
+    height: 3em;
+    object-fit: contain;
+    border-radius: 8px;
+    flex-shrink: 0;
+}
+
+.experience-title {
+    font-size: 1.5em;
+    font-family: "Oswald", serif;
+    font-weight: 500;
+    margin: 0;
+    color: var(--pop-color);
+}
+
+.experience-company {
+    font-size: 1em;
+    margin: 0.3em 0 0 0;
+    color: var(--secondary-color);
+    opacity: 0.8;
+}
+
+.experience-company .company-link {
+    color: var(--pop-color);
+    text-decoration: none;
+    transition: opacity 0.2s ease;
+}
+
+.experience-company .company-link:hover {
+    opacity: 0.8;
+    text-decoration: underline;
+}
+
+.experience-period {
+    font-size: 0.95em;
+    color: var(--secondary-color);
+    opacity: 0.7;
+    white-space: nowrap;
+    margin: 0;
+}
+
+.experience-description {
+    list-style: disc;
+    padding-left: 1.5em;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5em;
+}
+
+.experience-description li {
+    line-height: 1.6;
+    color: var(--secondary-color);
+}
+
+@media only screen and (max-width: 768px) {
+    .experience-header {
+        flex-direction: column;
+        gap: 0.5em;
+    }
+
+    .experience-period {
+        white-space: normal;
+    }
+
+    .company-logo {
+        width: 2.5em;
+        height: 2.5em;
+    }
+}

@@ -14,8 +14,7 @@ export const projectsData = [
         title: "MeetUp",
         description: "Full-Stack social media application designed for mobile platforms.",
         techs: meetup,
-        codeLink: "https://github.com/ndyarborough/Meetup_2.0",
-        liveLink: "http://meetup-ndyarborough.s3-website.us-east-2.amazonaws.com/"
+        codeLink: "https://github.com/ndyarborough/Meetup_2.0"
     },
     {
         images: [chvenue],

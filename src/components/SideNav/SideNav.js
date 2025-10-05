@@ -1,25 +1,19 @@
 import { Link } from 'react-scroll';
-import aboutMe from '../../imgs/about-me.png';
-import aboutMeDark from '../../imgs/about_me_dark.png';
-import projects from '../../imgs/projects.png';
-import projectsDark from '../../imgs/projects_dark.png';
-import techStack from '../../imgs/tech-stack.png';
-import techStackDark from '../../imgs/tech_stack_dark.png';
-import contact from '../../imgs/contact.png';
-import contactDark from '../../imgs/contact_dark.png';
+import Icon from '../Icon';
 import './SideNav.css';
 
 const SideNav = ({ activeSection, activeStyle }) => {
   const sections = [
-    { id: 'about-me', light: aboutMe, dark: aboutMeDark, label: 'About Me' },
-    { id: 'projects', light: projects, dark: projectsDark, label: 'Projects' },
-    { id: 'tech-stack', light: techStack, dark: techStackDark, label: 'Skills' },
-    { id: 'contact', light: contact, dark: contactDark, label: 'Contact' },
+    { id: 'about-me', icon: 'account_circle', label: 'About Me' },
+    { id: 'experience', icon: 'business', label: 'Experience' },
+    { id: 'projects', icon: 'apps', label: 'Projects' },
+    { id: 'tech-stack', icon: 'settings', label: 'Skills' },
+    { id: 'contact', icon: 'mail', label: 'Contact' },
   ];
 
   return (
     <div className='side-nav'>
-      {sections.map(({ id, light, dark, label }) => (
+      {sections.map(({ id, icon, label }) => (
         <Link
           key={id}
           to={id}
@@ -29,7 +23,7 @@ const SideNav = ({ activeSection, activeStyle }) => {
           offset={-80}
           className={`roww ${activeSection === id ? 'active' : ''}`}
         >
-          <img src={activeStyle === 'dark' ? light : dark} alt={label} />
+          <Icon name={icon} className="nav-icon" size={24} />
           <span>{label}</span>
         </Link>
       ))}
